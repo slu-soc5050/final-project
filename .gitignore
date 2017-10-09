@@ -43,8 +43,9 @@ Thumbs.db
 
 # R files #
 ###########
+.Rproj.user
 .Rhistory
 .RData
-.Rproj.user
+.Ruserdata
 *.dcf
 *.ttc
