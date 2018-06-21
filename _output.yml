@@ -1,0 +1,26 @@
+bookdown::gitbook:
+  css: style.css
+  split_by: section
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><strong><a href="https://slu-soc5050.github.io/final-project/">SOC 4015 & 5050 Final Project</a></strong></li>
+      after: |
+        <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+    edit: null
+    download: ["pdf"]
+    sharing:
+      facebook: no
+      twitter: no
+      google: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: null
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
