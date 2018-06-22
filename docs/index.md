@@ -1,7 +1,7 @@
 ---
 title: "SOC 4015 & 5050: Quantitative Analysis Final Project"
 author: "Christopher Prener, Ph.D."
-date: "`r Sys.Date()`"
+date: "2018-06-21"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -13,9 +13,9 @@ description: "These are the final project instructions for Chris's sections of S
 
 # Basics {-}
 
-```{block, type = "rmdwarning"}
-These are the **draft** final project instructions for **Fall 2018**. Changes should expected before the release of the instructions prior to the first day of class. This will occur in mid August.
-```
+<div class="rmdwarning">
+<p>These are the <strong>draft</strong> final project instructions for <strong>Fall 2018</strong>. Changes should expected before the release of the instructions prior to the first day of class. This will occur in mid August.</p>
+</div>
 
 As described in the [syllabus](https://slu-soc5050.github.io/syllabus), the final project corresponds to the fourth course learning outcome:
 
@@ -29,70 +29,65 @@ These instructions are organized into **vignettes** (pronouced `vin'yets`). Thes
 #### What do I have to do? {-}
 The instructions will vary at different points based on whether you are enrolled in SOC 4015 or SOC 5050. Look for this indiactor for information about *who* the vignette is designed for:
 
-```{block, type = "rmdpersonnel"}
-**Personnel:** This vignette should be completed by **all** students.
-```
+<div class="rmdpersonnel">
+<p><strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students.</p>
+</div>
 
 If the instructions are only for one of the sections, they will look like this:
 
-```{block, type = "rmdpersonnel"}
-**Personnel:** This vignette should be completed by students in **SOC 5050** only.
-```
+<div class="rmdpersonnel">
+<p><strong>Personnel:</strong> This vignette should be completed by students in <strong>SOC 5050</strong> only.</p>
+</div>
 
 Each vignette also includes an indiactor that describes *what* the goal of the vignette is:
 
-```{block, type = "rmdgoal"}
-**Goal:** create a quick summary of your project for Chris.
-```
+<div class="rmdgoal">
+<p><strong>Goal:</strong> create a quick summary of your project for Chris.</p>
+</div>
 
 #### What order do I have to do the vignettes in? {-}
 Some of the vignettes can be worked on in parallel while others require that a prior vignette has been completed. If there is a pre-requisite vignette that must be completed first, this indiactor will include pertinent details about ordering:
 
-```{block, type = "rmdcaution"}
-**Pre-requisties:** This vignette should be completed *after* **Vignette 6**.
-```
+<div class="rmdcaution">
+<p><strong>Pre-requisties:</strong> This vignette should be completed <em>after</em> <strong>Vignette 6</strong>.</p>
+</div>
 
 Otherwise you will see this indicator:
 
-```{block, type = "rmdcaution"}
-**Pre-requisties:** There are no pre-requisites for this vignette.
-```
+<div class="rmdcaution">
+<p><strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.</p>
+</div>
 
 #### What do I need to know how to do? {-}
 Some of the vignettes require technical skills that will be covered as the semester progresses. If that is the case, those lectures will be identified with this indiactor:
 
-```{block, type = "rmdex"}
-**Skills:** Lectures 1 and 2
-```
+<div class="rmdex">
+<p><strong>Skills:</strong> Lectures 1 and 2</p>
+</div>
 
 #### When are vignettes due? {-}
 Some of the vignettes have hard due dates while others do not. For vignettes without a firm deadline, a *suggested* deadline will be provided for those of you who appreciate a bit more structure. Firm deadlines will be provided in an indicator at the top of each vignette that looks like this:
 
-```{block, type = "rmddue"}
-**Required Due Date:** This vignette must be completed by March 15^th^.
-```
+<div class="rmddue">
+<p><strong>Required Due Date:</strong> This vignette must be completed by March 15<sup>th</sup>.</p>
+</div>
 
 Suggested deadlines will look like this:
 
-```{block, type = "rmddue"}
-***Suggested* Completion Date:** This vignette should be completed by March 15^th^.
-```
+<div class="rmddue">
+<p><strong><em>Suggested</em> Completion Date:</strong> This vignette should be completed by March 15<sup>th</sup>.</p>
+</div>
 
 #### What do I have to submit? {-}
 All of the vignettes require you to produce *something*. A quick description of the deliverables associated with the vignette will be included in this indicator:
 
-```{block, type = "rmdtip"}
-**Deliverables:** A knit `.Rmd` notebook with the appropriate `.md` output that uses a literate programming approach to document your data cleaning efforts should be included in your final project repository.
-```
+<div class="rmdtip">
+<p><strong>Deliverables:</strong> A knit <code>.Rmd</code> notebook with the appropriate <code>.md</code> output that uses a literate programming approach to document your data cleaning efforts should be included in your final project repository.</p>
+</div>
 
 ## License {-}
 Copyright © 2016-2018 [Christopher G. Prener](https://chris-prener.github.io)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+

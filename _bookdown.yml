@@ -1,11 +1,13 @@
 book_filename: "Quantiative_Analysis_Final_Project"
 language:
   ui:
-    chapter_name: "Section "
+    chapter_name: "Vignette "
 new_session: yes
 delete_merged_file: true
 output_dir: "docs"
 
 rmd_files: [
-  "index.Rmd"
+  "index.Rmd",
+  
+  "development.Rmd"
 ]
