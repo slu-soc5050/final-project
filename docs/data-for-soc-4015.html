@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="license.html">
+<link rel="prev" href="topic-selection.html">
+<link rel="next" href="data-for-soc-5050.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -106,106 +106,37 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">SOC 4015 &amp; 5050: Quantitative Analysis Final Project</h1>
-<h4 class="author"><em>Christopher Prener, Ph.D.</em></h4>
-<h4 class="date"><em>2018-06-22</em></h4>
-</div>
-<div id="basics" class="section level1 unnumbered">
-<h1>Basics</h1>
-<div class="rmdwarning">
-<p>
-These are the <strong>draft</strong> final project instructions for <strong>Fall 2018</strong>. Changes should expected before the release of the instructions prior to the first day of class. This will occur in mid August.
-</p>
-</div>
-<p>As described in the <a href="https://slu-soc5050.github.io/syllabus">syllabus</a>, the final project corresponds to the fourth course learning outcome:</p>
-<blockquote>
-<ol start="4" style="list-style-type: decimal">
-<li>Quantitative research synthesis: Plan, implement (using <code>R</code>), and present (using <code>knitr</code> as well as the word pressing and presentation applications of your choice) a research project that uses linear regression to answer a research question.</li>
+<div id="data-for-soc-4015" class="section level2">
+<h2><span class="header-section-number">1.1</span> Data for SOC 4015</h2>
+<p>If you are enrolled in SOC 4015, you have a choice:</p>
+<ol style="list-style-type: decimal">
+<li>The <strong>easier</strong> option is to follow the instructions in this section, which direct you to a pre-selected data set and provide you a list of possible outcomes to “study” for the final project.</li>
+<li>The <strong>more difficult</strong> option is to identify your own data set. If you want to pursue this option, see the instructions in the <a href="/data-for-soc-5050.html">next section</a>.</li>
 </ol>
+<div id="the-general-social-survey" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> The General Social Survey</h3>
+<p>The General Social Survey (GSS) is fielded by the National Opinion Research Center (NORC), which is based at the University of Chicago. It has been in continuous operation since 1972:</p>
+<blockquote>
+<p>The GSS gathers data on contemporary American society in order to monitor and explain trends and constants in attitudes, behaviors, and attributes. Hundreds of trends have been tracked since 1972. In addition, since the GSS adopted questions from earlier surveys, trends can be followed for up to 70 years.</p>
 </blockquote>
-<p>All students will select a set of variables from a data set and perform an original data analysis culminating in a series of linear regression models. Each student will be responsible for selecting a research question, establishing a hypothesis, conducting an analysis to test that hypothesis, and presenting the results. This process and project mirrors the steps taken to author a quantitative conference presentation (for all students) and a quantitative journal article (for students enrolled in SOC 5050).</p>
-<div id="how-are-these-instructions-organized" class="section level3 unnumbered">
-<h3>How are these instructions organized?</h3>
-<p>These instructions are organized into <strong>vignettes</strong> (pronouced <code>vin'yets</code>). These are meant to create “bite sized” modules that break down the final project into discrete phases. Each vignette has a set of indicators on the top-level page for the vignette that provide you with some general information about what the vignette entails. These indicators will help you quickly navigate the instructions.</p>
-<div id="what-do-i-have-to-do" class="section level4 unnumbered">
-<h4>What do I have to do?</h4>
-<p>Each vignette includes an indiactor that describes <em>what</em> the goal of the vignette is:</p>
-<div class="rmdgoal">
-<p>
-<strong>Goal:</strong> create a quick summary of your project for Chris.
-</p>
+<blockquote>
+<p>The GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are civil liberties, crime and violence, intergroup tolerance, morality, national spending priorities, psychological well-being, social mobility, and stress and traumatic events.</p>
+</blockquote>
+<p>You can read more about the GSS on <a href="http://gss.norc.org">NORC’s website</a>.</p>
 </div>
-<p>The instructions will vary at different points based on whether you are enrolled in SOC 4015 or SOC 5050. Look for this indiactor for information about <em>who</em> the vignette is designed for:</p>
-<div class="rmdpersonnel">
-<p>
-<strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students.
-</p>
+<div id="the-2016-gss" class="section level3">
+<h3><span class="header-section-number">1.1.2</span> The 2016 GSS</h3>
+<p>A data set containing the 2016 General Social Survey variables has been created and made available <a href="https://github.com/slu-soc5050/final-project-data">through GitHub</a>. There are a total of 33 continuous variables that make sense for use as outcomes for the final project. Pick two outcomes, a first choice and a second choice, from the list below.</p>
+<p>Every effort will be made to give you your first choice, but in the event that two or more of your colleagues also have the same first choice, I will randomly select the two students who may use that outcome variable.</p>
 </div>
-<p>If the instructions are only for one of the sections, they will look like this:</p>
-<div class="rmdpersonnel">
-<p>
-<strong>Personnel:</strong> This vignette should be completed by students in <strong>SOC 5050</strong> only.
-</p>
-</div>
-</div>
-<div id="what-order-do-i-have-to-do-the-vignettes-in" class="section level4 unnumbered">
-<h4>What order do I have to do the vignettes in?</h4>
-<p>Some of the vignettes can be worked on in parallel while others require that a prior vignette has been completed. If there is a pre-requisite vignette that must be completed first, this indiactor will include pertinent details about ordering:</p>
-<div class="rmdcaution">
-<p>
-<strong>Pre-requisties:</strong> This vignette should be completed <em>after</em> <strong>Vignette 6</strong>.
-</p>
-</div>
-<p>Otherwise you will see this indicator:</p>
-<div class="rmdcaution">
-<p>
-<strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.
-</p>
-</div>
-</div>
-<div id="what-do-i-need-to-know-how-to-do" class="section level4 unnumbered">
-<h4>What do I need to know how to do?</h4>
-<p>Some of the vignettes require technical skills that will be covered as the semester progresses. If that is the case, those lectures will be identified with this indiactor:</p>
-<div class="rmdex">
-<p>
-<strong>Skills:</strong> Lectures 1 and 2
-</p>
-</div>
-</div>
-<div id="when-are-vignettes-due" class="section level4 unnumbered">
-<h4>When are vignettes due?</h4>
-<p>Some of the vignettes have hard due dates while others do not. For vignettes without a firm deadline, a <em>suggested</em> deadline will be provided for those of you who appreciate a bit more structure. Firm deadlines will be provided in an indicator at the top of each vignette that looks like this:</p>
-<div class="rmddue">
-<p>
-<strong>Required Due Date:</strong> This vignette must be completed by March 15<sup>th</sup>.
-</p>
-</div>
-<p>Suggested deadlines will look like this:</p>
-<div class="rmddue">
-<p>
-<strong><em>Suggested</em> Completion Date:</strong> This vignette should be completed by March 15<sup>th</sup>.
-</p>
-</div>
-</div>
-<div id="what-do-i-have-to-submit" class="section level4 unnumbered">
-<h4>What do I have to submit?</h4>
-<p>All of the vignettes require you to produce <em>something</em>. A quick description of the deliverables associated with the vignette will be included in this indicator:</p>
-<div class="rmdtip">
-<p>
-<strong>Deliverables:</strong> A knit <code>.Rmd</code> notebook with the appropriate <code>.md</code> output that uses a literate programming approach to document your data cleaning efforts should be included in your final project repository.
-</p>
-</div>
-</div>
-</div> 
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="license.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="topic-selection.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-for-soc-5050.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -1,9 +1,7 @@
-# (PART) Initial Steps {-}
-
 # Analysis Development
 
 <div class="rmdgoal">
-<p><strong>Goal:</strong> Provide information about organizational expectations for the final project.</p>
+<p><strong>Goal:</strong> Create the basic folder structure and documentation files needed for a well-organized project.</p>
 </div>
 
 <div class="rmdpersonnel">
@@ -19,11 +17,12 @@
 </div>
 
 <div class="rmddue">
-<p><strong>Required Due Date:</strong> …</p>
+<p><strong>Required Due Date 1:</strong> Lecture 5 (September 24<sup>th</sup>)</p>
+<p><strong>Required Due Date 2:</strong> Final Presentations (December 17<sup>th</sup>)</p>
 </div>
 
 <div class="rmdtip">
-<p><strong>Deliverables:</strong> A well organized project repository</p>
+<p><strong>Deliverables:</strong> A well organized project repository with an appropriate folder structure, a plan implemented with GitHub Projects, a <code>README.md</code>, a <code>RESEARCH_LOG.md</code>, and a <code>.Rproj</code> file. These should all be <em>created</em> by the first due date. Your documentation files should be <em>completed</em> by the second due date.</p>
 </div>
 
 ## Data Storage

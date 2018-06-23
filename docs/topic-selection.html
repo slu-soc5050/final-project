@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="license.html">
+<link rel="prev" href="license.html">
+<link rel="next" href="data-for-soc-4015.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -106,97 +106,37 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">SOC 4015 &amp; 5050: Quantitative Analysis Final Project</h1>
-<h4 class="author"><em>Christopher Prener, Ph.D.</em></h4>
-<h4 class="date"><em>2018-06-22</em></h4>
-</div>
-<div id="basics" class="section level1 unnumbered">
-<h1>Basics</h1>
-<div class="rmdwarning">
-<p>
-These are the <strong>draft</strong> final project instructions for <strong>Fall 2018</strong>. Changes should expected before the release of the instructions prior to the first day of class. This will occur in mid August.
-</p>
-</div>
-<p>As described in the <a href="https://slu-soc5050.github.io/syllabus">syllabus</a>, the final project corresponds to the fourth course learning outcome:</p>
-<blockquote>
-<ol start="4" style="list-style-type: decimal">
-<li>Quantitative research synthesis: Plan, implement (using <code>R</code>), and present (using <code>knitr</code> as well as the word pressing and presentation applications of your choice) a research project that uses linear regression to answer a research question.</li>
-</ol>
-</blockquote>
-<p>All students will select a set of variables from a data set and perform an original data analysis culminating in a series of linear regression models. Each student will be responsible for selecting a research question, establishing a hypothesis, conducting an analysis to test that hypothesis, and presenting the results. This process and project mirrors the steps taken to author a quantitative conference presentation (for all students) and a quantitative journal article (for students enrolled in SOC 5050).</p>
-<div id="how-are-these-instructions-organized" class="section level3 unnumbered">
-<h3>How are these instructions organized?</h3>
-<p>These instructions are organized into <strong>vignettes</strong> (pronouced <code>vin'yets</code>). These are meant to create “bite sized” modules that break down the final project into discrete phases. Each vignette has a set of indicators on the top-level page for the vignette that provide you with some general information about what the vignette entails. These indicators will help you quickly navigate the instructions.</p>
-<div id="what-do-i-have-to-do" class="section level4 unnumbered">
-<h4>What do I have to do?</h4>
-<p>Each vignette includes an indiactor that describes <em>what</em> the goal of the vignette is:</p>
+<div id="topic-selection" class="section level1">
+<h1><span class="header-section-number">Vignette 1</span> Topic Selection</h1>
 <div class="rmdgoal">
 <p>
-<strong>Goal:</strong> create a quick summary of your project for Chris.
+<strong>Goal:</strong> Identify a data set and appropriate variables of interest.
 </p>
 </div>
-<p>The instructions will vary at different points based on whether you are enrolled in SOC 4015 or SOC 5050. Look for this indiactor for information about <em>who</em> the vignette is designed for:</p>
 <div class="rmdpersonnel">
 <p>
-<strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students.
+<strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students. Make sure to follow the instructions for the section you are enrolled in.
 </p>
 </div>
-<p>If the instructions are only for one of the sections, they will look like this:</p>
-<div class="rmdpersonnel">
-<p>
-<strong>Personnel:</strong> This vignette should be completed by students in <strong>SOC 5050</strong> only.
-</p>
-</div>
-</div>
-<div id="what-order-do-i-have-to-do-the-vignettes-in" class="section level4 unnumbered">
-<h4>What order do I have to do the vignettes in?</h4>
-<p>Some of the vignettes can be worked on in parallel while others require that a prior vignette has been completed. If there is a pre-requisite vignette that must be completed first, this indiactor will include pertinent details about ordering:</p>
-<div class="rmdcaution">
-<p>
-<strong>Pre-requisties:</strong> This vignette should be completed <em>after</em> <strong>Vignette 6</strong>.
-</p>
-</div>
-<p>Otherwise you will see this indicator:</p>
 <div class="rmdcaution">
 <p>
 <strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.
 </p>
 </div>
-</div>
-<div id="what-do-i-need-to-know-how-to-do" class="section level4 unnumbered">
-<h4>What do I need to know how to do?</h4>
-<p>Some of the vignettes require technical skills that will be covered as the semester progresses. If that is the case, those lectures will be identified with this indiactor:</p>
 <div class="rmdex">
 <p>
-<strong>Skills:</strong> Lectures 1 and 2
+<strong>Skills:</strong> There are no course-specific skills for this vignette.
 </p>
 </div>
-</div>
-<div id="when-are-vignettes-due" class="section level4 unnumbered">
-<h4>When are vignettes due?</h4>
-<p>Some of the vignettes have hard due dates while others do not. For vignettes without a firm deadline, a <em>suggested</em> deadline will be provided for those of you who appreciate a bit more structure. Firm deadlines will be provided in an indicator at the top of each vignette that looks like this:</p>
 <div class="rmddue">
 <p>
-<strong>Required Due Date:</strong> This vignette must be completed by March 15<sup>th</sup>.
+<strong>Required Due Date:</strong> Lecture 3 (September 10<sup>th</sup>)
 </p>
 </div>
-<p>Suggested deadlines will look like this:</p>
-<div class="rmddue">
-<p>
-<strong><em>Suggested</em> Completion Date:</strong> This vignette should be completed by March 15<sup>th</sup>.
-</p>
-</div>
-</div>
-<div id="what-do-i-have-to-submit" class="section level4 unnumbered">
-<h4>What do I have to submit?</h4>
-<p>All of the vignettes require you to produce <em>something</em>. A quick description of the deliverables associated with the vignette will be included in this indicator:</p>
 <div class="rmdtip">
 <p>
-<strong>Deliverables:</strong> A knit <code>.Rmd</code> notebook with the appropriate <code>.md</code> output that uses a literate programming approach to document your data cleaning efforts should be included in your final project repository.
+<strong>Deliverables:</strong> Information from this vignette will be included in your memo (see Vignette 2).
 </p>
-</div>
-</div>
 </div> 
 </div>
             </section>
@@ -204,8 +144,8 @@ These are the <strong>draft</strong> final project instructions for <strong>Fall
           </div>
         </div>
       </div>
-
-<a href="license.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="license.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-for-soc-4015.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -1,7 +1,7 @@
 ---
 title: "SOC 4015 & 5050: Quantitative Analysis Final Project"
 author: "Christopher Prener, Ph.D."
-date: "2018-06-21"
+date: "2018-06-22"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -27,6 +27,12 @@ All students will select a set of variables from a data set and perform an origi
 These instructions are organized into **vignettes** (pronouced `vin'yets`). These are meant to create "bite sized" modules that break down the final project into discrete phases. Each vignette has a set of indicators on the top-level page for the vignette that provide you with some general information about what the vignette entails. These indicators will help you quickly navigate the instructions.
 
 #### What do I have to do? {-}
+Each vignette includes an indiactor that describes *what* the goal of the vignette is:
+
+<div class="rmdgoal">
+<p><strong>Goal:</strong> create a quick summary of your project for Chris.</p>
+</div>
+
 The instructions will vary at different points based on whether you are enrolled in SOC 4015 or SOC 5050. Look for this indiactor for information about *who* the vignette is designed for:
 
 <div class="rmdpersonnel">
@@ -37,12 +43,6 @@ If the instructions are only for one of the sections, they will look like this:
 
 <div class="rmdpersonnel">
 <p><strong>Personnel:</strong> This vignette should be completed by students in <strong>SOC 5050</strong> only.</p>
-</div>
-
-Each vignette also includes an indiactor that describes *what* the goal of the vignette is:
-
-<div class="rmdgoal">
-<p><strong>Goal:</strong> create a quick summary of your project for Chris.</p>
 </div>
 
 #### What order do I have to do the vignettes in? {-}

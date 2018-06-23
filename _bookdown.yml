@@ -9,5 +9,6 @@ output_dir: "docs"
 rmd_files: [
   "index.Rmd",
   
+  "topic.Rmd",
   "development.Rmd"
 ]

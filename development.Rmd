@@ -1,9 +1,7 @@
-# (PART) Initial Steps {-}
-
 # Analysis Development
 
 ```{block, type = "rmdgoal"}
-**Goal:** Provide information about organizational expectations for the final project.
+**Goal:** Create the basic folder structure and documentation files needed for a well-organized project.
 ```
 
 ```{block, type = "rmdpersonnel"}
@@ -19,11 +17,13 @@
 ```
 
 ```{block, type = "rmddue"}
-**Required Due Date:** ...
+**Required Due Date 1:** Lecture 5 (September 24^th^)
+
+**Required Due Date 2:** Final Presentations (December 17^th^)
 ```
 
 ```{block, type = "rmdtip"}
-**Deliverables:** A well organized project repository
+**Deliverables:** A well organized project repository with an appropriate folder structure, a plan implemented with GitHub Projects, a `README.md`, a `RESEARCH_LOG.md`, and a `.Rproj` file. These should all be *created* by the first due date. Your documentation files should be *completed* by the second due date.
 ```
 
 ## Data Storage
