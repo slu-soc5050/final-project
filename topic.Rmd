@@ -1,13 +1,13 @@
 # (PART) Initial Steps {-}
 
-# Topic Selection
+# Topic & Data Selection
 
 ```{block, type = "rmdgoal"}
 **Goal:** Identify a data set and appropriate variables of interest.
 ```
 
 ```{block, type = "rmdpersonnel"}
-**Personnel:** This vignette should be completed by **all** students. Make sure to follow the instructions for the section you are enrolled in.
+**Personnel:** This vignette should be completed by **all** students. Make sure to follow the instructions for the section you are enrolled in (either [SOC 4015](/data-for-soc-4015.html) or [SOC 5050](/data-for-soc-5050.html)).
 ```
 
 ```{block, type = "rmdcaution"}
@@ -23,7 +23,7 @@
 ```
 
 ```{block, type = "rmdtip"}
-**Deliverables:** Information from this vignette will be included in your memo (see Vignette 2).
+**Deliverables:** A [short memo](/the-memo.html) detailing your data, the variables you'll be using, and the reasons you've selected them.
 ```
 
 ## Data for SOC 4015
@@ -39,11 +39,143 @@ The General Social Survey (GSS) is fielded by the National Opinion Research Cent
 
 > The GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are civil liberties, crime and violence, intergroup tolerance, morality, national spending priorities, psychological well-being, social mobility, and stress and traumatic events.
 
-You can read more about the GSS on [NORC's website](http://gss.norc.org).
+You can read more about the GSS on [NORC's website](http://gss.norc.org). 
 
-### The 2016 GSS
-A data set containing the 2016 General Social Survey variables has been created and made available [through GitHub](https://github.com/slu-soc5050/final-project-data). There are a total of 33 continuous variables that make sense for use as outcomes for the final project. Pick two outcomes, a first choice and a second choice, from the list below. 
+A data set containing the 2016 General Social Survey variables has been created and made available [through GitHub](https://github.com/slu-soc5050/final-project-data). Since some questions are only asked in certain years, the data set that I am providing has been limited only to questions used in 2016. Keep this in mind as you look through the documentation!
+
+### Picking an Outcome
+There are at least 37 continuous variables (or combinations thereof) that make sense for use as outcomes for the final project. Pick two outcomes, a first choice and a second choice, from the list below. 
 
 Every effort will be made to give you your first choice, but in the event that two or more of your colleagues also have the same first choice, I will randomly select the two students who may use that outcome variable.
 
+**Possible outcome variables:**
+
+1. `hrs1` - respondent's hours worked last week 
+2. `prestg10` - prestige of respondent's occupation
+3. `prestg105plus` - prestige of respondent's occupation, alternate formula
+
+4. `sphrs1` - spouse's hours worked last week 
+5. `sppres10` - prestige of spouse's occupation
+6. `sppres105plus` - prestige of spouse's occupation, alternate formula
+
+7. `papres10` - prestige of father's occupation
+8. `papres105plus` - prestige of father's occupation, alternate formula
+
+9. `mapres10` - prestige of mother's occupation
+10. `mapres105plus` - prestige of mother's occupation, alternate formula
+
+11. `sibs` - number of siblings
+12. `hompop` - number of people living in household
+13. `babies` - number of household members under 6 years of age
+14. `preteen` - number of household members between 6 and 12 years of age
+15. `teens` - number of household members between 13 and 17 years of age
+16. `adults` - number of household members over 17 years of age
+17. `unrelat` - number of household members not related
+18. `earnrs` - number of earners in the household
+
+19. `sei10` - respondent's socioeconomic index
+20. `spsei10` - spouses's socioeconomic index
+21. `pasei10` - father's socioeconomic index
+22. `masei10` - mother's socioeconomic index
+
+23. `snsmyear` - year first joined social network
+24. `intwkdyh` - internet use, weekday, hours and `intwkdym` - internet use, weekday, minutes
+25. `intwkenh` - internet use, weekend, hours and `intwkenm` - internet use, weekend, minutes
+
+26. `racethwh` - ten point scale for racial identity, white
+27. `racethhi` - ten point scale for racial identity, latino
+28. `racethbl` - ten point scale for racial identity, black or african american
+29. `racethas` - ten point scale for racial identity, asian
+30. `racethna` - ten point scale for racial identity, native american
+31. `racethot` - ten point scale for racial identity, other
+
+32. `usualhrs` - usual number of hours worked per week
+33. `mosthrs` - greatest number of hours worked per week in last month
+34. `leasthrs` - least number of hours worked per week in last month
+
+35. `numwomen` - number of female partners respondent has had sex with since their 18th birthday
+36. `nummen` - number of male partners respondent has had sex with since their 18th birthday
+
+37. `agekdbrn` - age at birth of first child
+
+There may be other variables in the GSS that can be used as well. The major requirements is that the variable is asked of a majority of respondents in 2016 and is continuous. *If you find another variable that you think may work, check with Chris before proceeding.*
+
+### A Quick Literature Search
+Once you have an outcome identified, go to [Sociological Abstracts](http://ezp.slu.edu/login?url=http://search.proquest.com/socabs/advanced?accountid=8065), enter your SLU login credentials, and conduct a keyword search using the main construct represented by your selected outcome variable. *Do this only for the first choice variable you've selected.*
+
+```{block, type = "rmdtip"}
+For example, I picked a hypothetical variable `sushi`, representing the number of times the respondent had eaten sushi in the last year, I might use "sushi" or "Japanese food" as search terms.
+```
+
+Look for two articles that assess this same outcome *quantitatively* (i.e. using statistics), read the articles, and take note of the independent variables used. 
+
+```{block, type = "rmdtip"}
+Qualitative studies can (and should!) also be used to inform variable selection, but since you are only being asked to find two relevant articles, we are going to prioritize quantitative research here.
+```
+
+### Selecting Independent Variables
+Use the codebook included in the [final project data release](https://github.com/slu-soc5050/final-project-data) to see if variables similar to those you identified above are also in the GSS. Feel free to also use variables not mentioned in the articles, as long as you can make an argument that they are plausibly connected to the outcome. Your goal here is to create a *theoretically motivated* list of independent variables that are *rooted in the literature*. *Once again, do this only for the first choice variable you've selected.* 
+
+```{block, type = "rmdtip"}
+If this were a more substantial project, you would want to look at far more articles than just two! We typically conduct full literature searches before selecting a group of variables to use in a particular analysis.
+```
+
 ## Data for SOC 5050
+These instructions apply to two groups of students:
+
+1. You are enrolled in SOC 5050, *or*
+2. you are enrolled in SOC 4015 and want to pick your own data set rather than use the 2016 General Social Survey
+
+For both groups of students, these instructions will lay out the process for identifying an appropriate data set for your final project.
+
+### Characteristics of an Appropriate Data Set
+Data sets for your final project will have a number of salient characteristics: 
+
+1. It should have a substantial sample size of at least several hundred respondents
+2. There should be a continuous variable that is a suitable outcome variable - i.e. something that we can estimate variation based on other variables in the data
+3. There should be at least six to eight possible constructs that can be used as independent variables - i.e. the variables that are used to estimate variation in our outcome
+
+### Other Considerations
+For those of you enrolled in SOC 5050, there are a few other considerations to take into account. If you have already identified a possible thesis topic, pick a data set that is either a possible candidate for inclusion in your thesis *or*, at the very least, is conceptually related. You want to maximize the impact that your coursework has, so even if you are not sure whether or not the data set itself will be helpful, picking something in the same topic area will mean that your literature search can be put to use on future assignments (such as in your Research Methods course).
+
+### Finding an Appropriate Data Set
+In general, you are free to use any resource to identify a suitable data set that meets the above criteria with a couple of caveats:
+
+1. There is **not** time for you to collect your own data.
+2. There is **not** time for you to go through the IRB process to gain access to confidential data (either data that is not publicly available or data collected by a thesis advisor or other faculty member).
+3. The data you use should be licensed for re-use (it cannot be proprietary or otherwise restrively licensed).
+4. The data should be well documented - you want to be very sure what each variable represents. If there is no codebook or documentation, the data set is probably not appropriate for this project. *See Chris if you have questions about this.*
+5. The data should not be the 2016 General Social Survey. *See Chris if you want to use another iteration of the GSS.*
+
+If you are not sure where to start, the best option is to search through **ICPSR** - the Inter-university Consortium for Political and Social Research. SLU is an institutional member, so you will want to log in to ICPSR's website by using [this link](http://ezp.slu.edu/login?url=http://www.icpsr.umich.edu/icpsrweb/ICPSR/) and entering in your SLU login credentials. Once you are logged in, you can use the search tools to conduct keyword searches.
+
+### A Quick Literature Search
+Once you have an outcome identified, go to [Sociological Abstracts](http://ezp.slu.edu/login?url=http://search.proquest.com/socabs/advanced?accountid=8065), enter your SLU login credentials, and conduct a keyword search using the main construct represented by your selected outcome variable. 
+
+```{block, type = "rmdtip"}
+For example, I picked a hypothetical variable `sushi`, representing the number of times the respondent had eaten sushi in the last year, I might use "sushi" or "Japanese food" as search terms.
+```
+
+Look for two articles that assess this same outcome *quantitatively* (i.e. using statistics), read the articles, and take note of the independent variables used. 
+
+```{block, type = "rmdtip"}
+Qualitative studies can (and should!) also be used to inform variable selection, but since you are only being asked to find two relevant articles, we are going to prioritize quantitative research here.
+```
+
+### Selecting Independent Variables
+Use the documentation included with your data to see if variables similar to those you identified above are also in the the data set you've selected. Feel free to also use variables not mentioned in the articles, as long as you can make an argument that they are plausibly connected to the outcome. Your goal here is to create a *theoretically motivated* list of independent variables that are *rooted in the literature*. 
+
+```{block, type = "rmdtip"}
+If this were a more substantial project, you would want to look at far more articles than just two! We typically conduct full literature searches before selecting a group of variables to use in a particular analysis.
+```
+
+## The Memo
+Once you have completed **all** of the steps for identifying a suitable data set, outcome variable, and possible independent variables, you should open an [Issue](https://help.github.com/articles/about-issues/) on your **final project repository**. In your issue: 
+
+1. identify the data you are using, 
+2. the outcome variable (and, if you are in [SOC 4015](/data-for-soc-4015.html), your second choice outcome as well),
+3. *all* of the independent variables you've selected,
+4. and a justification for each independent variable that addresses *why* it makes sense to include in your analysis.
+5. You will also need to provide *properly formatted citations* using the [American Sociological Association](https://owl.english.purdue.edu/owl/resource/583/1/) citation style guide.
+
+Once you have your memo drafted, open the issue and [assign it](https://help.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/) to Chris for review.

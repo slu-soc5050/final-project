@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="analysis-development.html">
-<link rel="next" href="project-planning.html">
+<link rel="prev" href="license.html">
+<link rel="next" href="data-for-soc-4015.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -71,12 +71,21 @@
 <li class="chapter" data-level="" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i>License</a></li>
 </ul></li>
 <li class="part"><span><b>I Initial Steps</b></span></li>
-<li class="chapter" data-level="1" data-path="topic-selection.html"><a href="topic-selection.html"><i class="fa fa-check"></i><b>1</b> Topic Selection</a><ul>
+<li class="chapter" data-level="1" data-path="topic-data-selection.html"><a href="topic-data-selection.html"><i class="fa fa-check"></i><b>1</b> Topic &amp; Data Selection</a><ul>
 <li class="chapter" data-level="1.1" data-path="data-for-soc-4015.html"><a href="data-for-soc-4015.html"><i class="fa fa-check"></i><b>1.1</b> Data for SOC 4015</a><ul>
 <li class="chapter" data-level="1.1.1" data-path="data-for-soc-4015.html"><a href="data-for-soc-4015.html#the-general-social-survey"><i class="fa fa-check"></i><b>1.1.1</b> The General Social Survey</a></li>
 <li class="chapter" data-level="1.1.2" data-path="data-for-soc-4015.html"><a href="data-for-soc-4015.html#picking-an-outcome"><i class="fa fa-check"></i><b>1.1.2</b> Picking an Outcome</a></li>
+<li class="chapter" data-level="1.1.3" data-path="data-for-soc-4015.html"><a href="data-for-soc-4015.html#a-quick-literature-search"><i class="fa fa-check"></i><b>1.1.3</b> A Quick Literature Search</a></li>
+<li class="chapter" data-level="1.1.4" data-path="data-for-soc-4015.html"><a href="data-for-soc-4015.html#selecting-independent-variables"><i class="fa fa-check"></i><b>1.1.4</b> Selecting Independent Variables</a></li>
 </ul></li>
-<li class="chapter" data-level="1.2" data-path="data-for-soc-5050.html"><a href="data-for-soc-5050.html"><i class="fa fa-check"></i><b>1.2</b> Data for SOC 5050</a></li>
+<li class="chapter" data-level="1.2" data-path="data-for-soc-5050.html"><a href="data-for-soc-5050.html"><i class="fa fa-check"></i><b>1.2</b> Data for SOC 5050</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="data-for-soc-5050.html"><a href="data-for-soc-5050.html#characteristics-of-an-appropriate-data-set"><i class="fa fa-check"></i><b>1.2.1</b> Characteristics of an Appropriate Data Set</a></li>
+<li class="chapter" data-level="1.2.2" data-path="data-for-soc-5050.html"><a href="data-for-soc-5050.html#other-considerations"><i class="fa fa-check"></i><b>1.2.2</b> Other Considerations</a></li>
+<li class="chapter" data-level="1.2.3" data-path="data-for-soc-5050.html"><a href="data-for-soc-5050.html#finding-an-appropriate-data-set"><i class="fa fa-check"></i><b>1.2.3</b> Finding an Appropriate Data Set</a></li>
+<li class="chapter" data-level="1.2.4" data-path="data-for-soc-5050.html"><a href="data-for-soc-5050.html#a-quick-literature-search-1"><i class="fa fa-check"></i><b>1.2.4</b> A Quick Literature Search</a></li>
+<li class="chapter" data-level="1.2.5" data-path="data-for-soc-5050.html"><a href="data-for-soc-5050.html#selecting-independent-variables-1"><i class="fa fa-check"></i><b>1.2.5</b> Selecting Independent Variables</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="the-memo.html"><a href="the-memo.html"><i class="fa fa-check"></i><b>1.3</b> The Memo</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="analysis-development.html"><a href="analysis-development.html"><i class="fa fa-check"></i><b>2</b> Analysis Development</a><ul>
 <li class="chapter" data-level="2.1" data-path="data-storage.html"><a href="data-storage.html"><i class="fa fa-check"></i><b>2.1</b> Data Storage</a></li>
@@ -106,20 +115,46 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="data-storage" class="section level2">
-<h2><span class="header-section-number">2.1</span> Data Storage</h2>
-<p>You will have a separate GitHub repository that is dedicated to the final project. This will facilitate some of the peer evaluation tasks you will be asked to complete over the course of the semester, allowing you to share a repository with a colleague without exposing all of your other work and grades in the process.</p>
-<p>All final project materials should be stored in this repository, and it should be organized following the <a href="https://chris-prener.github.io/SSDSBook/organizing-projects.html">project organization principles discussed in <em>Sociospatial Data Science</em></a>. This means that it should have subfolders for <code>data/</code>, <code>docs/</code>, <code>results/</code>, and <code>source/</code> as well as a <code>.Rproj</code> file. If subfolders are empty, they will not be tracked by GitHub. If you are using only one computer, the folder will remain visible locally and Git will start tracking it once you begin adding materials. If you are using multiple computers, you can create empty text files named <code>.gitkeep</code> using RStudio (<code>File &gt; New File &gt; Text File</code>) and keep one in each subfolder.</p>
-<p>Since you will be storing this repository on GitHub, you will be default be using version control for this project. You should make commits (like voting in Chicago!) early and often. Make sure that your commit messages are informative and clear. Remember, if you have to go back to an earlier version of your work, you will want to make it as easy as possible to do so.</p>
-<p>Also make sure that you are pushing to GitHub often and not just saving the work locally on your computer. This is <em>part</em> of your insurance against a catastrophic loss of your computer or a lab computer where you are working. You are strongly encouraged to use a more comprehesive backup solution, which you can lean more about in <a href="https://chris-prener.github.io/SSDSBook/backing-up-your-data.html"><em>Sociospatial Data Science</em></a>.</p>
+<div id="topic-data-selection" class="section level1">
+<h1><span class="header-section-number">Vignette 1</span> Topic &amp; Data Selection</h1>
+<div class="rmdgoal">
+<p>
+<strong>Goal:</strong> Identify a data set and appropriate variables of interest.
+</p>
+</div>
+<div class="rmdpersonnel">
+<p>
+<strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students. Make sure to follow the instructions for the section you are enrolled in (either <a href="/data-for-soc-4015.html">SOC 4015</a> or <a href="/data-for-soc-5050.html">SOC 5050</a>).
+</p>
+</div>
+<div class="rmdcaution">
+<p>
+<strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.
+</p>
+</div>
+<div class="rmdex">
+<p>
+<strong>Skills:</strong> There are no course-specific skills for this vignette.
+</p>
+</div>
+<div class="rmddue">
+<p>
+<strong>Required Due Date:</strong> Lecture 3 (September 10<sup>th</sup>)
+</p>
+</div>
+<div class="rmdtip">
+<p>
+<strong>Deliverables:</strong> A <a href="/the-memo.html">short memo</a> detailing your data, the variables you’ll be using, and the reasons you’ve selected them.
+</p>
+</div> 
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="analysis-development.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="project-planning.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="license.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-for-soc-4015.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
