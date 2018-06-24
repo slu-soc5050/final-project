@@ -74,7 +74,7 @@ Every effort will be made to give you your first choice, but in the event that t
 18. `earnrs` - number of earners in the household
 
 19. `sei10` - respondent's socioeconomic index
-20. `spsei10` - spouses's socioeconomic index
+20. `spsei10` - spouse's socioeconomic index
 21. `pasei10` - father's socioeconomic index
 22. `masei10` - mother's socioeconomic index
 
@@ -83,9 +83,9 @@ Every effort will be made to give you your first choice, but in the event that t
 25. `intwkenh` - internet use, weekend, hours and `intwkenm` - internet use, weekend, minutes
 
 26. `racethwh` - ten point scale for racial identity, white
-27. `racethhi` - ten point scale for racial identity, latino
-28. `racethbl` - ten point scale for racial identity, black or african american
-29. `racethas` - ten point scale for racial identity, asian
+27. `racethhi` - ten point scale for racial identity, Latino
+28. `racethbl` - ten point scale for racial identity, black or African american
+29. `racethas` - ten point scale for racial identity, Asian
 30. `racethna` - ten point scale for racial identity, native american
 31. `racethot` - ten point scale for racial identity, other
 
@@ -107,7 +107,7 @@ Once you have an outcome identified, go to [Sociological Abstracts](http://ezp.s
 For example, I picked a hypothetical variable `sushi`, representing the number of times the respondent had eaten sushi in the last year, I might use "sushi" or "Japanese food" as search terms.
 ```
 
-Look for two articles that assess this same outcome *quantitatively* (i.e. using statistics), read the articles, and take note of the independent variables used. 
+Look for two recent [peer reviewed](https://library.sdsu.edu/research-services/research-help/peer-reviewed-articles) articles (i.e. in the last twenty or so years) that assess this same outcome *quantitatively* (i.e. using statistics), read the articles, and take note of the independent variables used. Be aware that Soc Abstracts will also return results from theses and other documents, so be sure to restrict your search and reading to peer reviewed journal articles.
 
 ```{block, type = "rmdtip"}
 Qualitative studies can (and should!) also be used to inform variable selection, but since you are only being asked to find two relevant articles, we are going to prioritize quantitative research here.
@@ -142,8 +142,8 @@ For those of you enrolled in SOC 5050, there are a few other considerations to t
 In general, you are free to use any resource to identify a suitable data set that meets the above criteria with a couple of caveats:
 
 1. There is **not** time for you to collect your own data.
-2. There is **not** time for you to go through the IRB process to gain access to confidential data (either data that is not publicly available or data collected by a thesis advisor or other faculty member).
-3. The data you use should be licensed for re-use (it cannot be proprietary or otherwise restrively licensed).
+2. There is **not** time for you to go through the IRB process to gain access to confidential data (either data that is not publicly available or data collected by a thesis adviser or other faculty member).
+3. The data you use should be licensed for re-use (it cannot be proprietary or otherwise restrictively licensed).
 4. The data should be well documented - you want to be very sure what each variable represents. If there is no codebook or documentation, the data set is probably not appropriate for this project. *See Chris if you have questions about this.*
 5. The data should not be the 2016 General Social Survey. *See Chris if you want to use another iteration of the GSS.*
 
@@ -153,10 +153,10 @@ If you are not sure where to start, the best option is to search through **ICPSR
 Once you have an outcome identified, go to [Sociological Abstracts](http://ezp.slu.edu/login?url=http://search.proquest.com/socabs/advanced?accountid=8065), enter your SLU login credentials, and conduct a keyword search using the main construct represented by your selected outcome variable. 
 
 ```{block, type = "rmdtip"}
-For example, I picked a hypothetical variable `sushi`, representing the number of times the respondent had eaten sushi in the last year, I might use "sushi" or "Japanese food" as search terms.
+For example, if I picked a hypothetical variable `sushi`, representing the number of times the respondent had eaten sushi in the last year, I might use "sushi" or "Japanese food" as search terms.
 ```
 
-Look for two articles that assess this same outcome *quantitatively* (i.e. using statistics), read the articles, and take note of the independent variables used. 
+Look for two recent [peer reviewed](https://library.sdsu.edu/research-services/research-help/peer-reviewed-articles) articles (i.e. in the last twenty or so years) that assess this same outcome *quantitatively* (i.e. using statistics), read the articles, and take note of the independent variables used. Be aware that Soc Abstracts will also return results from theses and other documents, so be sure to restrict your search and reading to peer reviewed journal articles.
 
 ```{block, type = "rmdtip"}
 Qualitative studies can (and should!) also be used to inform variable selection, but since you are only being asked to find two relevant articles, we are going to prioritize quantitative research here.
@@ -170,7 +170,7 @@ If this were a more substantial project, you would want to look at far more arti
 ```
 
 ## The Memo
-Once you have completed **all** of the steps for identifying a suitable data set, outcome variable, and possible independent variables, you should open an [Issue](https://help.github.com/articles/about-issues/) on your **final project repository**. In your issue: 
+Once you have completed **all** of the steps for identifying a suitable data set, outcome variable, and possible independent variables, you should create a new [issue](https://help.github.com/articles/about-issues/) on your **final project repository**. In your issue: 
 
 1. identify the data you are using, 
 2. the outcome variable (and, if you are in [SOC 4015](/data-for-soc-4015.html), your second choice outcome as well),

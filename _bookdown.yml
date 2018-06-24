@@ -10,5 +10,6 @@ rmd_files: [
   "index.Rmd",
   
   "topic.Rmd",
-  "development.Rmd"
+  "development.Rmd",
+  "bibliography.Rmd"
 ]
