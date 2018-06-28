@@ -8,11 +8,11 @@
 **Personnel:** This vignette should be completed by students in **SOC 5050** only.
 ```
 
-```{block, type = "rmdcaution"}
+```{block, type = "rmdpre"}
 **Pre-requisties:** Complete this vignette after reciving feedback from Chris on vignette 1.
 ```
 
-```{block, type = "rmdex"}
+```{block, type = "rmdskills"}
 **Skills:** There are no course-specific skills for this vignette.
 ```
 
@@ -20,7 +20,7 @@
 **Required Due Date:** Lecture 7 (October 8^th^)
 ```
 
-```{block, type = "rmdtip"}
+```{block, type = "rmddeliver"}
 **Deliverables:** A markdown file (`.md`) with properly formatted citations and evalutative assessments of each source; your spreadsheet documenting the search process.
 ```
 

@@ -10,11 +10,11 @@
 <p><strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students. Make sure to follow the instructions for the section you are enrolled in (either <a href="/data-for-soc-4015.html">SOC 4015</a> or <a href="/data-for-soc-5050.html">SOC 5050</a>).</p>
 </div>
 
-<div class="rmdcaution">
+<div class="rmdpre">
 <p><strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.</p>
 </div>
 
-<div class="rmdex">
+<div class="rmdskills">
 <p><strong>Skills:</strong> There are no course-specific skills for this vignette.</p>
 </div>
 
@@ -22,7 +22,7 @@
 <p><strong>Required Due Date:</strong> Lecture 3 (September 10<sup>th</sup>)</p>
 </div>
 
-<div class="rmdtip">
+<div class="rmddeliver">
 <p><strong>Deliverables:</strong> A <a href="/the-memo.html">short memo</a> detailing your data, the variables you’ll be using, and the reasons you’ve selected them.</p>
 </div>
 

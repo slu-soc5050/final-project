@@ -10,11 +10,11 @@
 **Personnel:** This vignette should be completed by **all** students. Make sure to follow the instructions for the section you are enrolled in (either [SOC 4015](/data-for-soc-4015.html) or [SOC 5050](/data-for-soc-5050.html)).
 ```
 
-```{block, type = "rmdcaution"}
+```{block, type = "rmdpre"}
 **Pre-requisties:** There are no pre-requisites for this vignette.
 ```
 
-```{block, type = "rmdex"}
+```{block, type = "rmdskills"}
 **Skills:** There are no course-specific skills for this vignette.
 ```
 
@@ -22,7 +22,7 @@
 **Required Due Date:** Lecture 3 (September 10^th^)
 ```
 
-```{block, type = "rmdtip"}
+```{block, type = "rmddeliver"}
 **Deliverables:** A [short memo](/the-memo.html) detailing your data, the variables you'll be using, and the reasons you've selected them.
 ```
 

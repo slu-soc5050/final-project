@@ -8,11 +8,11 @@
 **Personnel:** This vignette should be completed by **all** students.
 ```
 
-```{block, type = "rmdcaution"}
+```{block, type = "rmdpre"}
 **Pre-requisties:** There are no pre-requisites for this vignette.
 ```
 
-```{block, type = "rmdex"}
+```{block, type = "rmdskills"}
 **Skills:** Lectures 1 and 3
 ```
 
@@ -22,7 +22,7 @@
 **Required Due Date 2:** Final Presentations (December 17^th^)
 ```
 
-```{block, type = "rmdtip"}
+```{block, type = "rmddeliver"}
 **Deliverables:** A well organized project repository with an appropriate folder structure, a plan implemented with GitHub Projects, a `README.md`, a `RESEARCH_LOG.md`, and a `.Rproj` file. These should all be *created* by the first due date. Your documentation files should be *completed* by the second due date.
 ```
 

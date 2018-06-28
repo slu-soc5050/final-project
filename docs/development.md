@@ -8,11 +8,11 @@
 <p><strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students.</p>
 </div>
 
-<div class="rmdcaution">
+<div class="rmdpre">
 <p><strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.</p>
 </div>
 
-<div class="rmdex">
+<div class="rmdskills">
 <p><strong>Skills:</strong> Lectures 1 and 3</p>
 </div>
 
@@ -21,7 +21,7 @@
 <p><strong>Required Due Date 2:</strong> Final Presentations (December 17<sup>th</sup>)</p>
 </div>
 
-<div class="rmdtip">
+<div class="rmddeliver">
 <p><strong>Deliverables:</strong> A well organized project repository with an appropriate folder structure, a plan implemented with GitHub Projects, a <code>README.md</code>, a <code>RESEARCH_LOG.md</code>, and a <code>.Rproj</code> file. These should all be <em>created</em> by the first due date. Your documentation files should be <em>completed</em> by the second due date.</p>
 </div>
 

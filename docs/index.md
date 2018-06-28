@@ -1,7 +1,7 @@
 ---
 title: "SOC 4015 & 5050: Quantitative Analysis Final Project"
 author: "Christopher Prener, Ph.D."
-date: "2018-06-24"
+date: "2018-06-27"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
