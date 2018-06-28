@@ -31,6 +31,8 @@ We typically think of peer review as falling into two categories - books and jou
 
 Journal articles that are peer reviewed will be published in an academic journal. There are [many journals that publish sociological content](https://gmusocgrads.wordpress.com/development/journals/), along with others that publish more broadly in the social sciences (*Social Science & Medicine* is a great example). Beaware that not all journals are created equal - there is a whole group of so-called ["predatory" journals](https://beallslist.weebly.com) (along with [fake conferences](https://www.nytimes.com/2016/12/29/upshot/fake-academe-looking-much-like-the-real-thing.html)) that [capitalize on the "publish or perish" culture of academia](https://www.nytimes.com/2017/10/30/science/predatory-journals-academics.html) as well as the relative isolation of many scholars in developing countries.
 
+
+
 ## Conducting the Literature Search
 
 
