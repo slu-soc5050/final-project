@@ -1,0 +1,25 @@
+# Data Cleaning
+
+```{block, type = "rmdgoal"}
+**Goal:** Recode study variables so that they are suitable for data analysis.
+```
+
+```{block, type = "rmdpersonnel"}
+**Personnel:** This vignette should be completed by **all** students. 
+```
+
+```{block, type = "rmdpre"}
+**Pre-requisties:** This vignette should be completed _after_ Vignette 2's initial completion.
+```
+
+```{block, type = "rmdskills"}
+**Skills:** Lecture 2
+```
+
+```{block, type = "rmddue"}
+**_Suggested_ Due Date:** Lecture 8 (October 15^th^)
+```
+
+```{block, type = "rmddeliver"}
+**Deliverables:** A well-formatted notebook in the `docs/` folder that uses literate programming to produce a clean data set saved as a `.csv` file in the `data/` folder.
+```

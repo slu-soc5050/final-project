@@ -1,0 +1,27 @@
+# Exploratory Data Analysis
+
+```{block, type = "rmdgoal"}
+**Goal:** Produce exploratory plots for study variables to better understand their distribution.
+```
+
+```{block, type = "rmdpersonnel"}
+**Personnel:** This vignette should be completed by **all** students. 
+```
+
+```{block, type = "rmdpre"}
+**Pre-requisties:** This vignette should be started _after_ Vignette 5's initial completion.
+```
+
+```{block, type = "rmdskills"}
+**Skills:** Lectures 2, 3, 8, and 11
+```
+
+```{block, type = "rmddue"}
+**_Suggested_ Initial Due Date:** Lecture 11 (November 5^th^) - draft plots (not including scatterplots)
+
+**_Suggested_ Secondary Due Date:** Lecture 15 (December 3^rd^) - scatterplots; finalized plots for communication
+```
+
+```{block, type = "rmddeliver"}
+**Deliverables:** A well-formatted notebook in the `docs/` folder that uses literate programming to produce well-designed plots that are saved in the `results/` folder.
+```

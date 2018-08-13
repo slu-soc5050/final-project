@@ -38,3 +38,5 @@ Journal articles that are peer reviewed will be published in an academic journal
 
 ## Evaluating Sources
 
+
+## Writing an Annotated Bibliography

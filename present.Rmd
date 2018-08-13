@@ -1,0 +1,31 @@
+# (PART) Communicating Results {-}
+
+# Presentation
+
+```{block, type = "rmdgoal"}
+**Goal:** To produce and deliver a _short_ summary of your research question, methods, and findings.
+```
+
+```{block, type = "rmdpersonnel"}
+**Personnel:** This vignette should be completed by **all** students. 
+```
+
+```{block, type = "rmdpre"}
+**Pre-requisties:** This vignette should be started after Vignette 7's initial completion.
+```
+
+```{block, type = "rmdskills"}
+**Skills:** There are no course-specific skills for this vignette.
+```
+
+```{block, type = "rmddue"}
+**Required Draft Due Date:** Lecture 11 (November 5^th^)
+
+**Required Peer Review Due Date:** Lecture 12 (November 12^th^)
+
+**Required Final Due Date:** Final Presentations (December 17^th^)
+```
+
+```{block, type = "rmddeliver"}
+**Deliverables:** Final versions of your slides and handout saved as `.pdf` files in the `docs/` folder.
+```

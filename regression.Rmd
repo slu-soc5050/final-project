@@ -1,0 +1,25 @@
+# Linear Regression Models
+
+```{block, type = "rmdgoal"}
+**Goal:** To produce three nested linear regression models that evaluate the co-variation between your dependent variable and your remaining study variables.
+```
+
+```{block, type = "rmdpersonnel"}
+**Personnel:** This vignette should be completed by **all** students. 
+```
+
+```{block, type = "rmdpre"}
+**Pre-requisties:** This vignette should be started _after_ Vignette 7's initial completion.
+```
+
+```{block, type = "rmdskills"}
+**Skills:** Lectures 12, 13, and 14
+```
+
+```{block, type = "rmddue"}
+**_Suggested_ Due Date:** Lecture 15 (December 3^rd^)
+```
+
+```{block, type = "rmddeliver"}
+**Deliverables:** A well-formatted notebook in the `docs/` folder that uses literate programming to produce the output needed for a regression table, which should be saved in the `results/` folder.
+```

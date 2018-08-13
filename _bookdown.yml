@@ -11,5 +11,14 @@ rmd_files: [
   
   "topic.Rmd",
   "development.Rmd",
-  "bibliography.Rmd"
+  "bibliography.Rmd",
+  "cleaning.Rmd",
+  
+  "initial.Rmd",
+  "eda.Rmd",
+  "testing.Rmd",
+  "regression.Rmd",
+  
+  "present.Rmd",
+  "paper.Rmd"
 ]

@@ -1,0 +1,27 @@
+# Hypothesis Testing
+
+```{block, type = "rmdgoal"}
+**Goal:** To produce difference of mean tests between your dependent variable and relevant independent variables as well as a correlation matrix of your study variables.
+```
+
+```{block, type = "rmdpersonnel"}
+**Personnel:** This vignette should be completed by **all** students. 
+```
+
+```{block, type = "rmdpre"}
+**Pre-requisties:** This vignette should be started _after_ Vignette 6's initial completion.
+```
+
+```{block, type = "rmdskills"}
+**Skills:** Lectures 7, 8, 10, and 11
+```
+
+```{block, type = "rmddue"}
+**_Suggested_ Initial Due Date:** Lecture 11 (November 5^th^) - draft difference of mean tests
+
+**_Suggested_ Secondary Due Date:** Lecture 15 (December 3^rd^) - correlations; finalized tables for communication
+```
+
+```{block, type = "rmddeliver"}
+**Deliverables:** A well-formatted notebook in the `docs/` folder that uses literate programming to produce the output needed for statistical tables, which should be saved in the `results/` folder.
+```

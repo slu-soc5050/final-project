@@ -49,7 +49,7 @@ If the instructions are only for one of the sections, they will look like this:
 Some of the vignettes can be worked on in parallel while others require that a prior vignette has been completed. If there is a pre-requisite vignette that must be completed first, this indiactor will include pertinent details about ordering:
 
 <div class="rmdpre">
-<p><strong>Pre-requisties:</strong> This vignette should be completed <em>after</em> <strong>Vignette 6</strong>.</p>
+<p><strong>Pre-requisties:</strong> This vignette should be completed <em>after</em> Vignette 6.</p>
 </div>
 
 Otherwise you will see this indicator:
