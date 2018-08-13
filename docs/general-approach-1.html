@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="license.html">
-<link rel="next" href="data-for-soc-4015.html">
+<link rel="prev" href="initial-statistics.html">
+<link rel="next" href="exploratory-data-analysis.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -102,10 +102,20 @@
 <li class="chapter" data-level="3.3" data-path="evaluating-sources.html"><a href="evaluating-sources.html"><i class="fa fa-check"></i><b>3.3</b> Evaluating Sources</a></li>
 <li class="chapter" data-level="3.4" data-path="writing-an-annotated-bibliography.html"><a href="writing-an-annotated-bibliography.html"><i class="fa fa-check"></i><b>3.4</b> Writing an Annotated Bibliography</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="data-cleaning.html"><a href="data-cleaning.html"><i class="fa fa-check"></i><b>4</b> Data Cleaning</a></li>
+<li class="chapter" data-level="4" data-path="data-cleaning.html"><a href="data-cleaning.html"><i class="fa fa-check"></i><b>4</b> Data Cleaning</a><ul>
+<li class="chapter" data-level="4.1" data-path="general-approach.html"><a href="general-approach.html"><i class="fa fa-check"></i><b>4.1</b> General Approach</a></li>
+</ul></li>
 <li class="part"><span><b>II Data Analysis</b></span></li>
-<li class="chapter" data-level="5" data-path="initial-statistics.html"><a href="initial-statistics.html"><i class="fa fa-check"></i><b>5</b> Initial Statistics</a></li>
-<li class="chapter" data-level="6" data-path="exploratory-data-analysis.html"><a href="exploratory-data-analysis.html"><i class="fa fa-check"></i><b>6</b> Exploratory Data Analysis</a></li>
+<li class="chapter" data-level="5" data-path="initial-statistics.html"><a href="initial-statistics.html"><i class="fa fa-check"></i><b>5</b> Initial Statistics</a><ul>
+<li class="chapter" data-level="5.1" data-path="general-approach-1.html"><a href="general-approach-1.html"><i class="fa fa-check"></i><b>5.1</b> General Approach</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="general-approach-1.html"><a href="general-approach-1.html#analysis-development-1"><i class="fa fa-check"></i><b>5.1.1</b> Analysis Development</a></li>
+<li class="chapter" data-level="5.1.2" data-path="general-approach-1.html"><a href="general-approach-1.html#initial-analyses"><i class="fa fa-check"></i><b>5.1.2</b> Initial Analyses</a></li>
+<li class="chapter" data-level="5.1.3" data-path="general-approach-1.html"><a href="general-approach-1.html#final-analyses"><i class="fa fa-check"></i><b>5.1.3</b> Final Analyses</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="exploratory-data-analysis.html"><a href="exploratory-data-analysis.html"><i class="fa fa-check"></i><b>6</b> Exploratory Data Analysis</a><ul>
+<li class="chapter" data-level="6.1" data-path="general-approach-2.html"><a href="general-approach-2.html"><i class="fa fa-check"></i><b>6.1</b> General Approach</a></li>
+</ul></li>
 <li class="chapter" data-level="7" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html"><i class="fa fa-check"></i><b>7</b> Hypothesis Testing</a></li>
 <li class="chapter" data-level="8" data-path="linear-regression-models.html"><a href="linear-regression-models.html"><i class="fa fa-check"></i><b>8</b> Linear Regression Models</a></li>
 <li class="part"><span><b>III Communicating Results</b></span></li>
@@ -131,46 +141,31 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="topic-data-selection" class="section level1">
-<h1><span class="header-section-number">Vignette 1</span> Topic &amp; Data Selection</h1>
-<div class="rmdgoal">
-<p>
-<strong>Goal:</strong> Identify a data set and appropriate variables of interest.
-</p>
+<div id="general-approach-1" class="section level2">
+<h2><span class="header-section-number">5.1</span> General Approach</h2>
+<div id="analysis-development-1" class="section level3">
+<h3><span class="header-section-number">5.1.1</span> Analysis Development</h3>
+<p>All descriptive statistics work should be done in a single notebook that you clarify and expand over time. Your final results for your presentation (and paper if applicable) should be stored in the <code>results/</code> folder.</p>
 </div>
-<div class="rmdpersonnel">
-<p>
-<strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students. Make sure to follow the instructions for the section you are enrolled in (either <a href="/data-for-soc-4015.html">SOC 4015</a> or <a href="/data-for-soc-5050.html">SOC 5050</a>).
-</p>
+<div id="initial-analyses" class="section level3">
+<h3><span class="header-section-number">5.1.2</span> Initial Analyses</h3>
+<p>As with other parts of the final project, this section will require some iteration. Initially, you should use the <code>skimr</code> package to calculate descriptive statistics for all of your study variables after you have done some initial <a href="/data-cleaning.html">data cleaning</a>. The <code>skimr</code> results are best used for initial data exploration but should not be your only approach. Make sure to use other packages, like <code>moments</code>, to calculate additional descriptive statistics as needed for continuous variables. Use these initial calculations to make decisions about additional data cleaning and variable selection.</p>
+<p>During this initial phase, you should also use <code>naniar</code> to produce an analysis of missing data in your data set. Your final presentation (and paper if applicable) will need to describe any patterns of missing data and their possible impact on your results.</p>
 </div>
-<div class="rmdpre">
-<p>
-<strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.
-</p>
+<div id="final-analyses" class="section level3">
+<h3><span class="header-section-number">5.1.3</span> Final Analyses</h3>
+<p>Once you have a finalized set of study variables, your presentation (and paper if applicable) should include a descriptive statistics for all of the final variables used in your project. Since all of these variables will be either logical, ordinal, or continuous, you need only report the means for each of these variables. If a particular categorical variable is important to your analysis, you could also report the frequencies and percentages for this variable in a separate table. Check out recent articles in the <em><a href="https://www.journals.uchicago.edu/loi/ajs" target="_blank">American Journal of Sociology</a></em> for examples of different ways to present descriptive statistics.</p>
+
 </div>
-<div class="rmdskills">
-<p>
-<strong>Skills:</strong> There are no course-specific skills for this vignette.
-</p>
 </div>
-<div class="rmddue">
-<p>
-<strong>Required Due Date:</strong> Lecture 3 (September 10<sup>th</sup>)
-</p>
-</div>
-<div class="rmddeliver">
-<p>
-<strong>Deliverables:</strong> A <a href="/the-memo.html">short memo</a> detailing your data, the variables you’ll be using, and the reasons you’ve selected them.
-</p>
-</div> 
-</div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="license.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-for-soc-4015.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="initial-statistics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="exploratory-data-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

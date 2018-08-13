@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="license.html">
-<link rel="next" href="data-for-soc-4015.html">
+<link rel="prev" href="exploratory-data-analysis.html">
+<link rel="next" href="hypothesis-testing.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -102,10 +102,27 @@
 <li class="chapter" data-level="3.3" data-path="evaluating-sources.html"><a href="evaluating-sources.html"><i class="fa fa-check"></i><b>3.3</b> Evaluating Sources</a></li>
 <li class="chapter" data-level="3.4" data-path="writing-an-annotated-bibliography.html"><a href="writing-an-annotated-bibliography.html"><i class="fa fa-check"></i><b>3.4</b> Writing an Annotated Bibliography</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="data-cleaning.html"><a href="data-cleaning.html"><i class="fa fa-check"></i><b>4</b> Data Cleaning</a></li>
+<li class="chapter" data-level="4" data-path="data-cleaning.html"><a href="data-cleaning.html"><i class="fa fa-check"></i><b>4</b> Data Cleaning</a><ul>
+<li class="chapter" data-level="4.1" data-path="general-approach.html"><a href="general-approach.html"><i class="fa fa-check"></i><b>4.1</b> General Approach</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="general-approach.html"><a href="general-approach.html#analysis-development-1"><i class="fa fa-check"></i><b>4.1.1</b> Analysis Development</a></li>
+<li class="chapter" data-level="4.1.2" data-path="general-approach.html"><a href="general-approach.html#data-cleaning-criteria"><i class="fa fa-check"></i><b>4.1.2</b> Data Cleaning Criteria</a></li>
+</ul></li>
+</ul></li>
 <li class="part"><span><b>II Data Analysis</b></span></li>
-<li class="chapter" data-level="5" data-path="initial-statistics.html"><a href="initial-statistics.html"><i class="fa fa-check"></i><b>5</b> Initial Statistics</a></li>
-<li class="chapter" data-level="6" data-path="exploratory-data-analysis.html"><a href="exploratory-data-analysis.html"><i class="fa fa-check"></i><b>6</b> Exploratory Data Analysis</a></li>
+<li class="chapter" data-level="5" data-path="initial-statistics.html"><a href="initial-statistics.html"><i class="fa fa-check"></i><b>5</b> Initial Statistics</a><ul>
+<li class="chapter" data-level="5.1" data-path="general-approach-1.html"><a href="general-approach-1.html"><i class="fa fa-check"></i><b>5.1</b> General Approach</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="general-approach-1.html"><a href="general-approach-1.html#analysis-development-2"><i class="fa fa-check"></i><b>5.1.1</b> Analysis Development</a></li>
+<li class="chapter" data-level="5.1.2" data-path="general-approach-1.html"><a href="general-approach-1.html#initial-analyses"><i class="fa fa-check"></i><b>5.1.2</b> Initial Analyses</a></li>
+<li class="chapter" data-level="5.1.3" data-path="general-approach-1.html"><a href="general-approach-1.html#final-analyses"><i class="fa fa-check"></i><b>5.1.3</b> Final Analyses</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="exploratory-data-analysis.html"><a href="exploratory-data-analysis.html"><i class="fa fa-check"></i><b>6</b> Exploratory Data Analysis</a><ul>
+<li class="chapter" data-level="6.1" data-path="general-approach-2.html"><a href="general-approach-2.html"><i class="fa fa-check"></i><b>6.1</b> General Approach</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="general-approach-2.html"><a href="general-approach-2.html#analysis-development-3"><i class="fa fa-check"></i><b>6.1.1</b> Analysis Development</a></li>
+<li class="chapter" data-level="6.1.2" data-path="general-approach-2.html"><a href="general-approach-2.html#initial-plotting"><i class="fa fa-check"></i><b>6.1.2</b> Initial Plotting</a></li>
+<li class="chapter" data-level="6.1.3" data-path="general-approach-2.html"><a href="general-approach-2.html#final-plotting"><i class="fa fa-check"></i><b>6.1.3</b> Final Plotting</a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="7" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html"><i class="fa fa-check"></i><b>7</b> Hypothesis Testing</a></li>
 <li class="chapter" data-level="8" data-path="linear-regression-models.html"><a href="linear-regression-models.html"><i class="fa fa-check"></i><b>8</b> Linear Regression Models</a></li>
 <li class="part"><span><b>III Communicating Results</b></span></li>
@@ -131,46 +148,30 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="topic-data-selection" class="section level1">
-<h1><span class="header-section-number">Vignette 1</span> Topic &amp; Data Selection</h1>
-<div class="rmdgoal">
-<p>
-<strong>Goal:</strong> Identify a data set and appropriate variables of interest.
-</p>
+<div id="general-approach-2" class="section level2">
+<h2><span class="header-section-number">6.1</span> General Approach</h2>
+<div id="analysis-development-3" class="section level3">
+<h3><span class="header-section-number">6.1.1</span> Analysis Development</h3>
+<p>All plotting work should be done in a single notebook that you clarify and expand over time. Your final plots for your presentation (and paper if applicable) should be stored as <code>.png</code> files in the <code>results/</code> folder. Plots created for initial exploration do not need to be exported - they can be viewed interactively in your notebook. Make sure to make one final <code>knit</code> of your notebook so that all plots appear when uploaded to GitHub!</p>
 </div>
-<div class="rmdpersonnel">
-<p>
-<strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students. Make sure to follow the instructions for the section you are enrolled in (either <a href="/data-for-soc-4015.html">SOC 4015</a> or <a href="/data-for-soc-5050.html">SOC 5050</a>).
-</p>
+<div id="initial-plotting" class="section level3">
+<h3><span class="header-section-number">6.1.2</span> Initial Plotting</h3>
+<p>Like the <a href="/data-cleaning.html">data cleaning</a> and <a href="/initial-statistics.html">initial statistics</a> sections, this section will require some iteration. Initially, you should use <code>ggplot2</code> to produce some draft plots that explore the distribution of your dependent variable (using a histogram) and independent variables (using a combination of histograms and bar plots of the <em>original</em> categorical variables and not their recoded dummies). You should also produce bi-variate plots that show the relationship between your independent and dependent variables (using violin, ridge, and/or box and whisker plots as well as scatterplots). Finally, continuous variables should also be inspected for their normality using the appropriate visual techniques (including q-q plots). Use these initial plots to make decisions about additional data cleaning and variable selection, and to develop some initial thoughts about the relationships between your variables.</p>
 </div>
-<div class="rmdpre">
-<p>
-<strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.
-</p>
+<div id="final-plotting" class="section level3">
+<h3><span class="header-section-number">6.1.3</span> Final Plotting</h3>
+<p>Once you have a finalized set of study variables, produce final versions of plots using <code>ggplot2</code> and, if you would like, <code>ggridges</code> and <code>ggstatsplot</code>. All presentations and papers should contain a histogram and q-q plot of your dependent variable. You should also include plots showing the bi-variate relationship between your dependent variable and the main independent variable of interest. These plots should be well-designed, use accessible color palettes, and should contain all of the additional features needed (e.g. title, notes, descriptive statistics, etc.).</p>
+
 </div>
-<div class="rmdskills">
-<p>
-<strong>Skills:</strong> There are no course-specific skills for this vignette.
-</p>
 </div>
-<div class="rmddue">
-<p>
-<strong>Required Due Date:</strong> Lecture 3 (September 10<sup>th</sup>)
-</p>
-</div>
-<div class="rmddeliver">
-<p>
-<strong>Deliverables:</strong> A <a href="/the-memo.html">short memo</a> detailing your data, the variables you’ll be using, and the reasons you’ve selected them.
-</p>
-</div> 
-</div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="license.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-for-soc-4015.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="exploratory-data-analysis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="hypothesis-testing.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

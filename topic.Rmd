@@ -146,6 +146,7 @@ In general, you are free to use any resource to identify a suitable data set tha
 3. The data you use should be licensed for re-use (it cannot be proprietary or otherwise restrictively licensed).
 4. The data should be well documented - you want to be very sure what each variable represents. If there is no codebook or documentation, the data set is probably not appropriate for this project. *See Chris if you have questions about this.*
 5. The data should not be the 2016 General Social Survey. *See Chris if you want to use another iteration of the GSS.*
+6. If your data are longitudinal, you will want to pick data from one time period.
 
 If you are not sure where to start, the best option is to search through **ICPSR** - the Inter-university Consortium for Political and Social Research. SLU is an institutional member, so you will want to log in to ICPSR's website by using [this link](http://ezp.slu.edu/login?url=http://www.icpsr.umich.edu/icpsrweb/ICPSR/) and entering in your SLU login credentials. Once you are logged in, you can use the search tools to conduct keyword searches.
 
@@ -173,7 +174,7 @@ If this were a more substantial project, you would want to look at far more arti
 Once you have completed **all** of the steps for identifying a suitable data set, outcome variable, and possible independent variables, you should create a new [issue](https://help.github.com/articles/about-issues/) on your **final project repository**. In your issue: 
 
 1. identify the data you are using, 
-2. the outcome variable (and, if you are in [SOC 4015](/data-for-soc-4015.html), your second choice outcome as well),
+2. the outcome variable (and, if you are in [SOC 4015](/data-for-soc-4015.html) and using the 2016 GSS, your second choice outcome as well),
 3. *all* of the independent variables you've selected,
 4. and a justification for each independent variable that addresses *why* it makes sense to include in your analysis.
 5. You will also need to provide *properly formatted citations* using the [American Sociological Association](https://owl.english.purdue.edu/owl/resource/583/1/) citation style guide.

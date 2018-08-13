@@ -9,17 +9,33 @@
 ```
 
 ```{block, type = "rmdpre"}
-**Pre-requisties:** This vignette should be completed _after_ Vignette 2's initial completion.
+**Pre-requisties:** This vignette should be started _after_ Vignette 2's initial completion.
 ```
 
 ```{block, type = "rmdskills"}
-**Skills:** Lecture 2
+**Skills:** Lectures 2 and 9
 ```
 
 ```{block, type = "rmddue"}
-**_Suggested_ Due Date:** Lecture 8 (October 15^th^)
+**_Suggested_ Initial Due Date:** Lecture 8 (October 15^th^) - all cleaning but factor formatting
+
+**_Suggested_ Secondary Due Date:** Lecture 11 (November 5^th^) - properly cleaned factors
 ```
 
 ```{block, type = "rmddeliver"}
 **Deliverables:** A well-formatted notebook in the `docs/` folder that uses literate programming to produce a clean data set saved as a `.csv` file in the `data/` folder.
 ```
+
+## Analysis Development
+
+All data cleaning should be done in a single notebook that you clarify and expand over time. Use `dplyr` and `janitor` for data cleaning in short, well-organized pipelines. Your final data set should be stored in a `.csv` file in the `data/` folder along with the original raw data.
+
+## General Approach
+
+The amount of data cleaning needed will vary significantly based on the data set you are using and the measures you have selected. Thus there are no "one size fits all" instructions for cleaning your data. In general, you will want to focus on making sure a number of criteria are met:
+
+1. Variables should have clear, intuitive names.
+2. All missing data have been recoded to `NA` values (if they were not already coded that way) - you will need to refer to your data set's codebook to determine how missing data are handled and in which variables they may be a concern.
+3. Categorical variables that have numerous categories should be checked carefully for categories that have only a few observations, and those should (generally speaking) be folded into an `other` category.
+4. All categorical variables should be stored in two ways: as a single categorical variable and as a series of "dummy" logical variables. Imagine a categorical measure for race that has three categories: `(1) white`, `(2) black`, and `(3) asian`. Your final cleaned data should contain this variable as well as a variable named `white` that is `TRUE` if the responded is white and `FALSE` if they are not. Your data should have similar logiacal variables for `black` and `asian` as well. These measures become relevant when we start calculating difference of means and regression lines.
+5. If your data set does not include identification numbers for each row, you will need to create them to facilitate assumption checks to your regression models.
