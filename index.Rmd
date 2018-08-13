@@ -48,20 +48,20 @@ If the instructions are only for one of the sections, they will look like this:
 #### What order do I have to do the vignettes in? {-}
 Some of the vignettes can be worked on in parallel while others require that a prior vignette has been completed. If there is a pre-requisite vignette that must be completed first, this indiactor will include pertinent details about ordering:
 
-```{block, type = "rmdcaution"}
+```{block, type = "rmdpre"}
 **Pre-requisties:** This vignette should be completed *after* **Vignette 6**.
 ```
 
 Otherwise you will see this indicator:
 
-```{block, type = "rmdcaution"}
+```{block, type = "rmdpre"}
 **Pre-requisties:** There are no pre-requisites for this vignette.
 ```
 
 #### What do I need to know how to do? {-}
 Some of the vignettes require technical skills that will be covered as the semester progresses. If that is the case, those lectures will be identified with this indiactor:
 
-```{block, type = "rmdex"}
+```{block, type = "rmdskills"}
 **Skills:** Lectures 1 and 2
 ```
 
@@ -81,7 +81,7 @@ Suggested deadlines will look like this:
 #### What do I have to submit? {-}
 All of the vignettes require you to produce *something*. A quick description of the deliverables associated with the vignette will be included in this indicator:
 
-```{block, type = "rmdtip"}
+```{block, type = "rmddeliver"}
 **Deliverables:** A knit `.Rmd` notebook with the appropriate `.md` output that uses a literate programming approach to document your data cleaning efforts should be included in your final project repository.
 ```
 

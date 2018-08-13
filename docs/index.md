@@ -1,7 +1,7 @@
 ---
 title: "SOC 4015 & 5050: Quantitative Analysis Final Project"
 author: "Christopher Prener, Ph.D."
-date: "2018-06-27"
+date: "2018-08-12"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -48,20 +48,20 @@ If the instructions are only for one of the sections, they will look like this:
 #### What order do I have to do the vignettes in? {-}
 Some of the vignettes can be worked on in parallel while others require that a prior vignette has been completed. If there is a pre-requisite vignette that must be completed first, this indiactor will include pertinent details about ordering:
 
-<div class="rmdcaution">
+<div class="rmdpre">
 <p><strong>Pre-requisties:</strong> This vignette should be completed <em>after</em> <strong>Vignette 6</strong>.</p>
 </div>
 
 Otherwise you will see this indicator:
 
-<div class="rmdcaution">
+<div class="rmdpre">
 <p><strong>Pre-requisties:</strong> There are no pre-requisites for this vignette.</p>
 </div>
 
 #### What do I need to know how to do? {-}
 Some of the vignettes require technical skills that will be covered as the semester progresses. If that is the case, those lectures will be identified with this indiactor:
 
-<div class="rmdex">
+<div class="rmdskills">
 <p><strong>Skills:</strong> Lectures 1 and 2</p>
 </div>
 
@@ -81,7 +81,7 @@ Suggested deadlines will look like this:
 #### What do I have to submit? {-}
 All of the vignettes require you to produce *something*. A quick description of the deliverables associated with the vignette will be included in this indicator:
 
-<div class="rmdtip">
+<div class="rmddeliver">
 <p><strong>Deliverables:</strong> A knit <code>.Rmd</code> notebook with the appropriate <code>.md</code> output that uses a literate programming approach to document your data cleaning efforts should be included in your final project repository.</p>
 </div>
 
