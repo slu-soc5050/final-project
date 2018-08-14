@@ -14,7 +14,7 @@ rmd_files: [
   "bibliography.Rmd",
   "cleaning.Rmd",
   
-  "initial.Rmd",
+  "descriptives.Rmd",
   "eda.Rmd",
   "testing.Rmd",
   "regression.Rmd",
