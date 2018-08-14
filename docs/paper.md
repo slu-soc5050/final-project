@@ -25,3 +25,29 @@
 <div class="rmddeliver">
 <p><strong>Deliverables:</strong> A <code>.pdf</code> of your paper in the <code>docs/</code> folder.</p>
 </div>
+
+## Analysis Development
+
+## Draft Paper
+
+## Peer Review Instructions
+
+<div class="rmdwarning">
+<p>Expectations for the peer review element of the assignment are under development and will be posted after the beginning of the semester.</p>
+</div>
+
+## Final Paper
+
+1. Cover page with a title, word count, your name, your affiliation, and your contact information (professional address, email).\sidenote{Use the Department of Sociology and Anthropology, Saint Louis University, 3700 Lindell Blvd., St. Louis MO 63108 if you need a professional address.}
+2. Abstract of no more than 300 words on its own page
+3. The main body of the paper, no more than 5,000 words in length, containing:
+    * Introduction
+    * Background
+    * Data and Methods
+    * Results
+    * Discussion
+    * Conclusion
+4. Any expository endnotes 
+5. Works cited
+6. Tables, one per page
+7. Figures, one per page
