@@ -50,7 +50,7 @@ I use `xaringan` for some tasks, but presentations are one area where I do not p
 As I said above, there are no strict requirements for presentation software other than that it be in wide use in academia. If a tool is not discussed in this section, please check with me before starting to build your presentation with it. The only tool that I do not allow students to use is Presi. Please choose the tool you feel either most comfortable with or that you see as a long term investment in skill building. 
 
 ### Handout Tools
-As with presentation tools, I am not particularly concerned with the tool that you use to create your handout so long as it is in wide use in acadamia. Options include Microsoft Word, Apple Pages, Adobe InDesign, LaTeX, or even RMarkdown. Most students will find Word or Pages to be the easiest choices, but I can provide some support to students who want to try their hand at using LaTeX or RMarkdown for the same task.
+As with presentation tools, I am not particularly concerned with the tool that you use to create your handout so long as it is in wide use in academia. Options include Microsoft Word, Apple Pages, Adobe InDesign, LaTeX, or even RMarkdown. Most students will find Word or Pages to be the easiest choices, but I can provide some support to students who want to try their hand at using LaTeX or RMarkdown for the same task.
 
 ## Draft Presentation
 Begin creating a draft that will evolve into a short, five to six minute presentation of your findings. Please refer to my resources on <a href="https://chris-prener.github.io/presentingData/" target="_blank">presenting research</a> for guidance on constructing a good presentation. 
@@ -64,8 +64,9 @@ At the draft stage, presentations should include _as a minimum_:
 3. a literature slide 
     - SOC 4015 students should include the two or three key citations identified as part of the memo exercise
     - SOC 5050 students should avoid the temptation to summarize each of their sources; instead, synthesize the main points of the literature succinctly
-4. a *draft* descriptive statistics table as described in the "[Initial Statistics](initial-statistics.html)",
-5. and *draft* plots, including your histogram, q-q plot, and scatter plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above.
+4. a data and methods slide that describes the source of your data and the general techniques you used to produce your analyses,
+5. a *draft* descriptive statistics table as described in the "[Initial Statistics](initial-statistics.html)",
+6. and *draft* plots, including your histogram, q-q plot, and bivariate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above.
 
 Your draft will be graded using the "check" system outlined in the syllabus.
 
@@ -79,7 +80,7 @@ At the draft stage, presentations should include _as a minimum_:
 3. a descriptive statistics table, and
 4. a few key citations.
 
-These four elements should fit on the front size of an 8.5" x 11" sheet of paper.
+These four elements should fit on the front side of an 8.5" x 11" sheet of paper.
 
 Your draft will be graded using the "check" system outlined in the syllabus.
 
@@ -90,9 +91,42 @@ Expectations for the peer review element of the assignment are under development
 ```
 
 ## Final Presentation
+The final presentation should be approximately five to six minutes in length. It is important that you work hard not to go over that time limit given the number of students who will have to present during our finals week session! Please see the "[Draft Presentation](/draft-presentation.html)" instructions for some tips on getting started.
+
+Final presentations should contain _as a minimum_:
+
+1. A title slide (presentation title, name, date, etc.),
+2. an agenda slide with the main topics you want to cover (see the "[Final Presentation](/final-presentation.html)" instructions for a full list of what should be included),
+3. a literature slide 
+    - SOC 4015 students should include the two or three key citations identified as part of the memo exercise
+    - SOC 5050 students should avoid the temptation to summarize each of their sources; instead, synthesize the main points of the literature succinctly
+4. a data and methods slide that describes the source of your data and the general techniques you used to produce your analyses,
+5. a descriptive statistics table as described in the "[Initial Statistics](initial-statistics.html)",
+6. well-designed plots, including your histogram, q-q plot, and bivariate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above,
+7. a summary of your regression findings in a well-formatted table that is appropriate for your medium,
+8. a limitations slide that discusses what cautionary notes you have about your analyses or your findings,
+9. and discussion and conclusion slide that summarizes your findings, places them in the context of the literature you have identified, and offers some concluding remarks.
 
 ## Final Handout
+Alongside your presentation, you should bring copies of handouts for each audience member (anticipate approximately 20 handouts). Handouts should be no more than a single page front and back that contains the following on the front page:
+
+1. A title block that contains your title slide information (presentation title, name, date, etc.),
+2. an abstract that summarizes your research question and hypothesis,
+3. a descriptive statistics table, and
+4. a few key citations.
+
+The back page should contain a well-formatted table with your four regression models clearly presented for comparison. The beta values along with the intercept, $F$ test results, AIC, BIC, and adjusted R-squared should be included for each model.
 
 ## Presentation Day
+All presentations will be given during our finals week session on Monday, **December 17^th^** from 4pm to 6pm. Please be aware of the difference in start time from our normal class periods. Presentations will take place on campus in a room better suited for presenting than our normal classroom. I will update this space with the presentation location when it is finalized. 
 
+Please come prepared for your presentation with at least two copies of your slides - 
 
+1. One copy on a flash drive if using the room PC for Microsoft PowerPoint, on your computer if you will present using it, or on Google Slides
+2. One "backup" copy saved to a cloud service or, if you are using Google Slides, a `.pdf` version
+
+Please come at least a few minutes early to upload your slides to the classroom PC, to make sure you can log into Google for Google Slides, or to make sure you can get your laptop hooked up to the projector. I will have two Mac adapters available but cannot guarantee that they will work with all Apple laptops. 
+
+Make sure you are prepared to speak clearly and loudly. Some students may find notes helpful, but I encourage you not to read verbatim from them. Practicing in front of a mirror or in front of roommates, friends, or family can be very helpful.
+
+One final note - there are no dress requirements or the like,
