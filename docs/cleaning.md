@@ -1,30 +1,29 @@
 # Data Cleaning
 
-```{block, type = "rmdgoal"}
-**Goal:** Recode study variables so that they are suitable for data analysis.
-```
+<div class="rmdgoal">
+<p><strong>Goal:</strong> Recode study variables so that they are suitable for data analysis.</p>
+</div>
 
-```{block, type = "rmdpersonnel"}
-**Personnel:** This vignette should be completed by **all** students. 
-```
+<div class="rmdpersonnel">
+<p><strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students.</p>
+</div>
 
-```{block, type = "rmdpre"}
-**Pre-requisties:** This vignette should be started _after_ Vignette 2's initial completion.
-```
+<div class="rmdpre">
+<p><strong>Pre-requisties:</strong> This vignette should be started <em>after</em> Vignette 2’s initial completion.</p>
+</div>
 
-```{block, type = "rmdskills"}
-**Skills:** Lectures 2 and 9
-```
+<div class="rmdskills">
+<p><strong>Skills:</strong> Lectures 2 and 9</p>
+</div>
 
-```{block, type = "rmddue"}
-**_Suggested_ Initial Due Date:** Lecture 8 (October 15^th^) - all cleaning but factor formatting
+<div class="rmddue">
+<p><strong><em>Suggested</em> Initial Due Date:</strong> Lecture 8 (October 15<sup>th</sup>) - all cleaning but factor formatting</p>
+<p><strong><em>Suggested</em> Secondary Due Date:</strong> Lecture 11 (November 5<sup>th</sup>) - properly cleaned factors</p>
+</div>
 
-**_Suggested_ Secondary Due Date:** Lecture 11 (November 5^th^) - properly cleaned factors
-```
-
-```{block, type = "rmddeliver"}
-**Deliverables:** A well-formatted notebook in the `docs/` folder that uses literate programming to produce a clean data set saved as a `.csv` file in the `data/` folder.
-```
+<div class="rmddeliver">
+<p><strong>Deliverables:</strong> A well-formatted notebook in the <code>docs/</code> folder that uses literate programming to produce a clean data set saved as a <code>.csv</code> file in the <code>data/</code> folder.</p>
+</div>
 
 ## Data Cleaning Overview
 

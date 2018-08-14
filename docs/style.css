@@ -1,0 +1,65 @@
+p caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.rmdcaution, .rmddeliver, .rmddue, .rmdex, .rmdgoal, .rmdpersonnel, .rmdpre, .rmdquestion, .rmdskills, .rmdtip, .rmdwarning {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+
+.rmdcaution {
+  background-image: url("images/caution.png");
+}
+.rmddeliver {
+  background-image: url("images/deliverable.png");
+}
+.rmddue {
+  background-image: url("images/dueDate.png");
+}
+.rmdex {
+  background-image: url("images/example.png");
+}
+.rmdgoal {
+  background-image: url("images/goal.png");
+}
+.rmdpersonnel {
+  background-image: url("images/personnel.png");
+}
+.rmdpre {
+  background-image: url("images/prereq.png");
+}
+.rmdquestion {
+  background-image: url("images/question.png");
+}
+.rmdskills {
+  background-image: url("images/skills.png");
+}
+.rmdtip {
+  background-image: url("images/tip.png");
+}
+.rmdwarning {
+  background-image: url("images/warning.png");
+}
+
+.button {
+    background-color: #92d094; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
