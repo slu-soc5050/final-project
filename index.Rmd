@@ -15,7 +15,7 @@ description: "These are the final project instructions for Chris's sections of S
 
 The final project corresponds to the fourth course learning outcome, which is described in the [syllabus](https://slu-soc5050.github.io/syllabus) as:
 
-> 4. Quantitative research synthesis: Plan, implement (using `R`), and present (using `knitr` as well as the word pressing and presentation applications of your choice) a research project that uses linear regression to answer a research question.
+> 4. Quantitative research synthesis: Plan, implement (using `R`), and present (using `knitr` as well as the word processing and presentation applications of your choice) a research project that uses linear regression to answer a research question.
 
 All students will select a set of variables from a data set and perform an original data analysis culminating in a series of linear regression models. Each student will be responsible for selecting a research question, establishing a hypothesis, conducting an analysis to test that hypothesis, and presenting the results. This process and project mirrors the steps taken to author a quantitative conference presentation (for all students) and a quantitative journal article (for students enrolled in SOC 5050).
 
