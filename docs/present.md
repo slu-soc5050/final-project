@@ -68,7 +68,7 @@ At the draft stage, presentations should include _as a minimum_:
     - SOC 5050 students should avoid the temptation to summarize each of their sources; instead, synthesize the main points of the literature succinctly
 4. a data and methods slide that describes the source of your data and the general techniques you used to produce your analyses,
 5. a *draft* descriptive statistics table as described in the "[Initial Statistics](initial-statistics.html)",
-6. and *draft* plots, including your histogram, q-q plot, and bivariate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above.
+6. and *draft* plots, including your histogram, q-q plot, and bi-variate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above.
 
 Your draft will be graded using the "check" system outlined in the syllabus.
 
@@ -104,7 +104,7 @@ Final presentations should contain _as a minimum_:
     - SOC 5050 students should avoid the temptation to summarize each of their sources; instead, synthesize the main points of the literature succinctly
 4. a data and methods slide that describes the source of your data and the general techniques you used to produce your analyses,
 5. a descriptive statistics table as described in the "[Initial Statistics](initial-statistics.html)",
-6. well-designed plots, including your histogram, q-q plot, and bivariate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above,
+6. well-designed plots, including your histogram, q-q plot, and bi-variate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above,
 7. a summary of your regression findings in a well-formatted table that is appropriate for your medium,
 8. a limitations slide that discusses what cautionary notes you have about your analyses or your findings,
 9. and discussion and conclusion slide that summarizes your findings, places them in the context of the literature you have identified, and offers some concluding remarks.

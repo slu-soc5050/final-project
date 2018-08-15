@@ -20,5 +20,7 @@ rmd_files: [
   "regression.Rmd",
   
   "present.Rmd",
-  "paper.Rmd"
+  "paper.Rmd",
+  
+  "grading.Rmd"
 ]

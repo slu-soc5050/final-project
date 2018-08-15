@@ -45,9 +45,11 @@ Your draft should be formatted as it would be for your final submission so that 
 
 1. Your target length for this assignment is approximately 5,000 words all inclusive - citations, tables, and notes all count towards this total. You should be within 500 words of this target (i.e. between 4,500 and 5,500 words). Manuscripts should use 1" margins with 12 point, serif font.
 2. The first page should be a cover page with a title, word count, key words, your name, your affiliation, and your contact information (professional address, email). Use the "Department of Sociology and Anthropology, Saint Louis University, 3700 Lindell Blvd., St. Louis MO 63108" if you need a professional address.
-3. All in-text and works cited references should follow the American Sociological Association citation standards.
+3. All in-text and works cited references should follow the American Sociological Association citation standards. See my discussion under "[General Structure of Annotated Bibliography]" for details on why ASA is the only accepted format.
 
 Please read the *<a href="https://www.journals.uchicago.edu/journals/ajs/instruct" target="_blank">American Journal of Sociology</a>* guidelines for additional details. Learning to read these types of instructions for authors is an important academic skill!
+
+Like citation styles, journals are often idiosyncratic in their formatting guidelines. Each journal is a little bit different from the next and requires different things in its instructions to authors. There is therefore not just one way to submit an article. This project is structured to walk you through some of the mechanics of authoring an article manuscript, which includes formatting an article in an often foreign and exacting manner. There are critiques to journals operating this way, and I think many of them are valid. Nevertheless, these standards remain and becoming fluent in conforming to them is a skill that graduate students must acquire.
 
 ### Contents
 
@@ -65,6 +67,8 @@ At the draft stage, papers should include _as a minimum_:
 
 All sections (and each table and figure) should begin on their own page. 
 
+The Data and Methods section should contain greater detail than a typical journal article manuscript. Please be sure to reference and cite all packages that you use, and to describe extensively the process you followed cleaning and analyzing your data. Be sure to dedicate space in this section to describing the distribution of your dependent variable.
+
 ## Peer Review Instructions
 
 <div class="rmdwarning">
@@ -73,7 +77,7 @@ All sections (and each table and figure) should begin on their own page.
 
 ## Final Paper
 
-Your final paper should be formatted carefully based on the guidelines described in the "[Draft Paper]" section. Papers that do not follow the formatting criteria will not be graded, just as papers submitted to a journal without regard for their formatting standards will recieve a "desk rejection" and will not be sent out for review.
+Your final paper should be formatted carefully based on the guidelines described in the "[Draft Paper]" section. Papers that do not follow the formatting criteria will not be graded, just as papers submitted to a journal without regard for their formatting standards will receive a "desk rejection" and will not be sent out for review.
 
 At the final submission stage, papers should include _as a minimum_:
 
@@ -92,3 +96,7 @@ At the final submission stage, papers should include _as a minimum_:
 7. and figures.
 
 All sections (and each table and figure) should begin on their own page. 
+
+As I noted under "[Draft Paper]", the Data and Methods section should contain greater detail than a typical journal article manuscript. Please be sure to reference and cite all packages that you use, and to describe extensively the process you followed cleaning and analyzing your data. Be sure to dedicate space in this section to describing the distribution of your dependent variable, and to describe what types of model fit and assumption checks were conducted.
+
+Additionally, the Results section should report the results of all bivariate tests as well as your regression models. Finally, the limitations section should also provide a description of any issues identified in the model assumption checks phase of data analysis.
