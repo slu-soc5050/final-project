@@ -13,10 +13,6 @@ description: "These are the final project instructions for Chris's sections of S
 
 # Basics {-}
 
-<div class="rmdwarning">
-<p>These are the <strong>draft</strong> final project instructions for <strong>Fall 2018</strong>. Changes should expected before the release of the instructions prior to the first day of class. This will occur in mid August.</p>
-</div>
-
 The final project corresponds to the fourth course learning outcome, which is described in the [syllabus](https://slu-soc5050.github.io/syllabus) as:
 
 > 4. Quantitative research synthesis: Plan, implement (using `R`), and present (using `knitr` as well as the word pressing and presentation applications of your choice) a research project that uses linear regression to answer a research question.
