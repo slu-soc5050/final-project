@@ -26,6 +26,26 @@
 <p><strong>Deliverables:</strong> A <a href="/the-memo.html">short memo</a> detailing your data, the variables you’ll be using, and the reasons you’ve selected them.</p>
 </div>
 
+## Crafting a Research Question
+The process of conducting a research project starts with defining a research question to explore. For many students, this can be daunting. Yale University Sociology's <a href="https://sociology.yale.edu/sites/default/files/files/Writing_Sociology_Senior_Thesis_Guide_Final_Latest_Update.pdf" target="_blank">Handbook for Undergraduate Thesis research</a> usefully breaks down the types of questions sociologists answer into three broad categories. I've provided these three categories below along with some sample research questions on undocumented immigration:
+
+* "Questions about the meaning of certain activities, practices, or experiences for particular social groups."
+    - "How do classmates respond when a student discloses that they are an undocumented immigrant?"
+    - "How does participation in an immigrant advocacy group effect undocumented immigrants?"
+    - "How does disclosing undocumented status change the treatment of immigrants in social services settings?"
+* "Questions about the ways that identification with larger social categories – race, ethnicity, religion, political identification, gender – affect aspects of social life."
+    - "What is the relationship between political conservatism and beliefs about immigration?"
+    - "How do views of immigration vary based on gender identity?"
+    - "What is the relationship between religiosity and support for undocumented immigrants?"
+* "Questions about the influence of particular variables on other variables or outcomes, including questions that compare groups and track trends across a broader scale."
+    - "What is the relationship between levels of education and employment for undocumented immigrants?"
+    - "How does racial segregation impact the outcomes of undocumented immigrants in cities?"
+    - "What is the effect of DREAMer status on educational attainment?"
+
+Each student should think about the overarching category they want to conduct research in. If you are enrolled in SOC 4015, you have the option from picking from some pre-defined topics, so the broad category can be easily extracted from the list of variables found under "[Data for SOC 4015]". If you opt to pick your own data instead (or have to, if you are in SOC 5050), you will want to start with a broad category like "illegal immigration" and then narrow down that to something that is narrow enough that you can address it with the data you have. This means that once you have a question, you want to seek out some data to help you address it. This process is covered in the next two sections, split based on whether you are enrolled in SOC 4015 (see "[Data for SOC 4015]") or SOC 5050 (see "[Data for SOC 5050]"). If you are enrolled in SOC 4015 want to pick your own data set, follow the instructions under "[Data for SOC 4015]."
+
+Like the research process as a whole (see "[Data Analysis is not Linear]"), you may find that crafting a research question is an iterative process. You'll start with a broad topic, make a first attempt at narrowing it down, and then subsequently update the question as you find some related sources (and, if you are in SOC 5050, conduct a full-fledged literature review). 
+
 ## Data for SOC 4015
 If you are enrolled in SOC 4015, you have a choice:
 
@@ -114,7 +134,7 @@ Look for two recent [peer reviewed](https://library.sdsu.edu/research-services/r
 </div>
 
 ### Selecting Independent Variables
-Use the codebook included in the [final project data release](https://github.com/slu-soc5050/final-project-data) to see if variables similar to those you identified above are also in the GSS. Feel free to also use variables not mentioned in the articles, as long as you can make an argument that they are plausibly connected to the outcome. Your goal here is to create a *theoretically motivated* list of independent variables that are *rooted in the literature*. *Once again, do this only for the first choice variable you've selected.* 
+Use the code book included in the [final project data release](https://github.com/slu-soc5050/final-project-data) to see if variables similar to those you identified above are also in the GSS. Feel free to also use variables not mentioned in the articles, as long as you can make an argument that they are plausibly connected to the outcome. Your goal here is to create a *theoretically motivated* list of independent variables that are *rooted in the literature*. *Once again, do this only for the first choice variable you've selected.* 
 
 <div class="rmdtip">
 <p>If this were a more substantial project, you would want to look at far more articles than just two! We typically conduct full literature searches before selecting a group of variables to use in a particular analysis.</p>
@@ -144,7 +164,7 @@ In general, you are free to use any resource to identify a suitable data set tha
 1. There is **not** time for you to collect your own data.
 2. There is **not** time for you to go through the IRB process to gain access to confidential data (either data that is not publicly available or data collected by a thesis adviser or other faculty member).
 3. The data you use should be licensed for re-use (it cannot be proprietary or otherwise restrictively licensed).
-4. The data should be well documented - you want to be very sure what each variable represents. If there is no codebook or documentation, the data set is probably not appropriate for this project. *See Chris if you have questions about this.*
+4. The data should be well documented - you want to be very sure what each variable represents. If there is no code book or documentation, the data set is probably not appropriate for this project. *See Chris if you have questions about this.*
 5. The data should not be the 2016 General Social Survey. *See Chris if you want to use another iteration of the GSS.*
 6. If your data are longitudinal, you will want to pick data from one time period.
 
@@ -173,10 +193,11 @@ Use the documentation included with your data to see if variables similar to tho
 ## The Memo
 Once you have completed **all** of the steps for identifying a suitable data set, outcome variable, and possible independent variables, you should create a new [issue](https://help.github.com/articles/about-issues/) on your **final project repository**. In your issue: 
 
-1. identify the data you are using, 
-2. the outcome variable (and, if you are in [SOC 4015](/data-for-soc-4015.html) and using the 2016 GSS, your second choice outcome as well),
-3. *all* of the independent variables you've selected,
-4. and a justification for each independent variable that addresses *why* it makes sense to include in your analysis.
-5. You will also need to provide *properly formatted citations* using the [American Sociological Association](https://owl.english.purdue.edu/owl/resource/583/1/) citation style guide.
+1. State what your research question is, 
+2. identify the data you are using to address that question, 
+3. the outcome variable (and, if you are in [SOC 4015](/data-for-soc-4015.html) and using the 2016 GSS, your second choice outcome as well),
+4. *all* of the independent variables you've selected,
+5. and a justification for each independent variable that addresses *why* it makes sense to include in your analysis.
+6. You will also need to provide *properly formatted citations* using the [American Sociological Association](https://owl.english.purdue.edu/owl/resource/583/1/) citation style guide.
 
 Once you have your memo drafted, open the issue and [assign it](https://help.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/) to Chris for review.
