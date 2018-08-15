@@ -45,6 +45,9 @@ After the citation style, there should be one to two paragraphs summarizing the 
 
 
 ## Evaluating Sources
+First, make sure what you've found is "[Peer Reviewed]". If you've found a report or a popular press article (something like Time Magazine), hang onto it if you think it provides helpful contextual background but it should not be part of your literature search. If you've identified a dissertation or a thesis that seems helpful, there are typically two things worth doing: (1) check to see if it has been published as an article or a book (sometimes you'll have to check out the author's CV if you can find it), and (2) use it to identify other peer reviewed materials.
 
+<a href="http://www.sciencemag.org/" target="_blank">Science Magazine</a> has a <a href="http://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper" target="_blank">great article</a> that describes how different academics read articles. If you look through their responses, you'll notice that few take a new article, read the abstract than read through the article cover to cover. Instead there are a variety of approaches to finding out the "meat" of the article quickly, without reading it in its entirety. Use this as a strategy for figuring out whether or not an article is a good fit for your project. Read the abstract, introduction, and discussion sections to get a sense of the paper. Ask yourself if it makes a contribution to what you are researching. If it does, add it to your spreadsheet and fill out the necessary details. If it _does not_, add it to the "discard" list so you can find it later if you change your mind (or if you forget whether you've read it or not!).
 
 ## Writing an Annotated Bibliography
+
