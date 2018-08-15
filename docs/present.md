@@ -1,0 +1,146 @@
+# (PART) Communicating Results {-}
+
+# Presentation
+
+<div class="rmdgoal">
+<p><strong>Goal:</strong> To produce and deliver a <em>short</em> summary of your research question, methods, and findings.</p>
+</div>
+
+<div class="rmdpersonnel">
+<p><strong>Personnel:</strong> This vignette should be completed by <strong>all</strong> students.</p>
+</div>
+
+<div class="rmdpre">
+<p><strong>Pre-requisties:</strong> This vignette should be started after Vignette 7’s initial completion.</p>
+</div>
+
+<div class="rmdskills">
+<p><strong>Skills:</strong> There are no course-specific skills for this vignette.</p>
+</div>
+
+<div class="rmddue">
+<p><strong>Required Draft Due Date:</strong> Lecture 11 (November 5<sup>th</sup>)</p>
+<p><strong>Required Peer Review Due Date:</strong> Lecture 12 (November 12<sup>th</sup>)</p>
+<p><strong>Required Final Due Date:</strong> Final Presentations (December 17<sup>th</sup>)</p>
+</div>
+
+<div class="rmddeliver">
+<p><strong>Deliverables:</strong> Final versions of your slides and handout saved as <code>.pdf</code> files in the <code>docs/</code> folder.</p>
+</div>
+
+## Analysis Development
+
+Your draft presentation should be saved in your `docs/` folder. You may find it makes sense to create a sub-folder for your presentation slides - something like `docs/slides/` - since the notebooks and their output will create quite a few files. You can make a similar sub-folder (`docs/handout/`) for your presentation handout. For both, save both the editable source document in its native format as well as a `.pdf` rendering of the document. When you create your final presentation, do note overwrite the draft. Make sure both are saved separately (as in `slides-draft.ppt` and `slides-final.ppt`).
+
+<div class="rmdwarning">
+<p>It is imperative that a <code>.pdf</code> version is present for both your draft and final submissions. Since I do not have strict software requirements, I need to be sure that I can open your slides and handout, and that each looks as you intended it!</p>
+</div>
+
+### Presentation Tools
+There are no strict guidelines other than you should use a presentation tool common in academia. This includes Microsoft PowerPoint, Apple Keynote, Google Slides, or <a href="https://en.wikipedia.org/wiki/Beamer_(LaTeX)" target="_blank">LaTeX Beamer</a>. LaTeX is a professional typesetting tool that is widely used in academia for publishing, and it can make work like writing a graduate thesis significantly easier. If you are interesting in using this as an opportunity to learn LaTeX, I have some resources I can share. I also recommending working with <a href="http://sharelatex.com" target="_blank">ShareLaTeX</a>, which would allow you to share your work with me in a way that I can easily provide help and feedback.
+
+If you are interested in using R and RStudio for creating your slides, there are a number of options:
+
+* <a href="https://rmarkdown.rstudio.com/ioslides_presentation_format" target="_blank">`ioslides`</a>
+* <a href="https://rmarkdown.rstudio.com/slidy_presentation_format" target="_blank">`slidy`</a>
+* <a href="https://github.com/yihui/xaringan" target="_blank">`xaringan`</a>
+
+Of these, I think that `xaringan` is the best (though it is also the least documented). You can see what its output looks like on <a href="https://slides.yihui.name/xaringan/#1" target="_blank">Yihui Xie's website</a>. More details about `ioslides` and `slidy` can be found in Yihui's book <a href="https://bookdown.org/yihui/rmarkdown/presentations.html" target="_blank">R Markdown: The Definitive Guide</a>.
+
+I use `xaringan` for some tasks, but presentations are one area where I do not privilege plain-text documents - I teach and present research most often with Apple's Keynote.
+
+As I said above, there are no strict requirements for presentation software other than that it be in wide use in academia. If a tool is not discussed in this section, please check with me before starting to build your presentation with it. The only tool that I do not allow students to use is Presi. Please choose the tool you feel either most comfortable with or that you see as a long term investment in skill building. 
+
+### Handout Tools
+As with presentation tools, I am not particularly concerned with the tool that you use to create your handout so long as it is in wide use in academia. Options include Microsoft Word, Apple Pages, Google Docs, Adobe InDesign, LaTeX, or even RMarkdown. Most students will find Word or Pages to be the easiest choices, but I can provide some support to students who want to try their hand at using LaTeX or RMarkdown for the same task.
+
+## Draft Presentation
+Begin creating a draft that will evolve into a short, five to six minute presentation of your findings. Please refer to my resources on <a href="https://chris-prener.github.io/presentingData/" target="_blank">presenting research</a> for guidance on constructing a good presentation. 
+
+At the draft stage, you should already have identified a theme that you will use for your final presentation. The slides you submit should therefore be indicative of how your plan to visually design your final slides.
+
+At the draft stage, presentations should include _as a minimum_:
+
+1. A title slide (presentation title, name, date, etc.),
+2. an agenda slide with the main topics you want to cover (see the "[Final Presentation](/final-presentation.html)" instructions for a full list of what should be included),
+3. a literature slide 
+    - SOC 4015 students should include the two or three key citations identified as part of the memo exercise
+    - SOC 5050 students should avoid the temptation to summarize each of their sources; instead, synthesize the main points of the literature succinctly
+4. a data and methods slide that describes the source of your data and the general techniques you used to produce your analyses,
+5. a *draft* descriptive statistics table as described in the "[Initial Statistics](initial-statistics.html)",
+6. and *draft* plots, including your histogram, q-q plot, and bi-variate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above.
+
+Your draft will be graded using the "check" system outlined in the syllabus.
+
+## Draft Handout
+Using either a word processor (either Microsoft Word or Apple Pages), RMarkdown, or LaTeX, produce a handout that is clearly laid out and simple to follow. At the draft stage, you should have already identified the organizational strategy you will use for your handout. The handout you submit should therefore be indicative of how you plan to lay out your handout. 
+
+At the draft stage, presentations should include _as a minimum_:
+
+1. A title block that contains your title slide information (presentation title, name, date, etc.),
+2. an abstract that summarizes your research question and hypothesis,
+3. a descriptive statistics table, and
+4. a few key citations.
+
+These four elements should fit on the front side of an 8.5" x 11" sheet of paper.
+
+Your draft will be graded using the "check" system outlined in the syllabus.
+
+## Peer Review Instructions
+
+<div class="rmdwarning">
+<p>Expectations for the peer review element of the assignment are under development and will be posted after the beginning of the semester.</p>
+</div>
+
+## Final Presentation
+The final presentation should be approximately five to six minutes in length. It is important that you work hard not to go over that time limit given the number of students who will have to present during our finals week session! Please see the "[Draft Presentation](/draft-presentation.html)" instructions for some tips on getting started.
+
+Final presentations should contain _as a minimum_:
+
+1. A title slide (presentation title, name, date, etc.),
+2. an agenda slide with the main topics you want to cover (see the "[Final Presentation](/final-presentation.html)" instructions for a full list of what should be included),
+3. a literature slide 
+    - SOC 4015 students should include the two or three key citations identified as part of the memo exercise
+    - SOC 5050 students should avoid the temptation to summarize each of their sources; instead, synthesize the main points of the literature succinctly
+4. a data and methods slide that describes the source of your data and the general techniques you used to produce your analyses,
+5. a descriptive statistics table as described in the "[Initial Statistics](initial-statistics.html)",
+6. well-designed plots, including your histogram, q-q plot, and bi-variate plot described in the "[Exploratory Data Analysis](/exploratory-data-analysis.html)" section above,
+7. a summary of your regression findings in a well-formatted table that is appropriate for your medium,
+8. a limitations slide that discusses what cautionary notes you have about your analyses or your findings,
+9. and discussion and conclusion slide that summarizes your findings, places them in the context of the literature you have identified, and offers some concluding remarks.
+
+For the literature and data, do not just _summarize_ each but rather make a case for your study: what is the gap in the literature you are addressing? Why is the study design best suited to address that gap? You do not necessarily have to be this explicit on the slide itself, but should be when you describe the slide on presentation day. When you conclude, go back to this gap and make a case for how you've addressed it. We call this the "so what" part of a presentation - make sure your audiance does not leave wondering "so what"!^[These suggestions are adapted from <a href="https://twitter.com/JessicaCalarco/status/1024313082271735808" target="_blank">Dr. Jessica Calarco</a>.]
+
+This is, generally speaking, the way that professional conference presentations should be structured. There are only two major differences - we typically have a bit longer for conferences, which often offer presenters ten to fifteen minutes, and presenting data on the normality of your dependent variable is typically not a part of what you would present.
+
+## Final Handout
+Alongside your presentation, you should bring copies of handouts for each audience member (anticipate approximately 20 handouts). Handouts should be no more than a single page front and back that contains the following on the front page:
+
+1. A title block that contains your title slide information (presentation title, name, date, etc.),
+2. an abstract that summarizes your research question and hypothesis,
+3. a descriptive statistics table, and
+4. a few key citations.
+
+The back page should contain a well-formatted table with your four regression models clearly presented for comparison. The beta values along with the intercept, $F$ test results, AIC, BIC, and adjusted R-squared should be included for each model.
+
+## Presentation Day
+All presentations will be given during our finals week session on Monday, **December 17^th^** from 4pm to 6pm. Please be aware of the difference in start time from our normal class periods. Presentations will take place on campus in a room better suited for presenting than our normal classroom. I will update this space with the presentation location when it is finalized. 
+
+Please come prepared for your presentation with at least two copies of your slides - 
+
+1. One copy on a flash drive if using the room PC for Microsoft PowerPoint, on your computer if you will present using it, or on Google Slides
+2. One "backup" copy saved to a cloud service or, if you are using Google Slides, a `.pdf` version
+
+Please come at least a few minutes early to upload your slides to the classroom PC, to make sure you can log into Google for Google Slides, or to make sure you can get your laptop hooked up to the projector. I will have two Apple adapters available but cannot guarantee that they will work with all Mac laptops. If needed, however, Mac users can present using my laptop. 
+
+I will also provide a clicker for those students who are interested in using it. One word of caution - a presentation in front of others is usually *not* the best time to try using a clicker for the first time. You should practice using one ahead of time, and can borrow one to do so from Ashlee Dorsey, the Sociology and Anthropology Department Administrator.
+
+Make sure you are prepared to speak clearly and loudly. Some students may find notes helpful, but I strongly encourage you not to read verbatim from them. If you are going to bring notes, here are a few tips:^[These suggestions are adapted from <a href="https://twitter.com/JessicaCalarco/status/1024313082271735808" target="_blank">Dr. Jessica Calarco</a>.]
+
+* write your notes like you'd say them (short, declarative sentences)
+* plan to speak at about 100-150 words per minute
+* print it 14pt font or bigger
+
+Practicing in front of a mirror or in front of roommates, friends, or family can be very helpful. Being able to practice means being done with sufficient time to make that practice happen - build this into your planning from the outset! 
+
+One final note - there are no dress requirements or the like.
