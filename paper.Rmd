@@ -69,6 +69,10 @@ At the draft stage, papers should include _as a minimum_:
 
 All numbered sections (and each table and figure) should begin on their own page. The Background, Data and Methods, and other paper sections _should not_ begin on their own page.
 
+Some students do not like to write the introduction first, preferring to write the rest of the paper and then return to the intro. I think it is important to at least draft an introduction first that gives you a strong starting place. Think of this as building a foundation for the rest of the paper. <a href="http://www.raulpacheco.org/2018/02/how-to-write-the-introduction-to-a-research-paper/" target="_blank">Here are some tips</a> from <a href="http://www.raulpacheco.org/" target="_blank">Dr. Raul Pacheco-Vega</a>.
+
+The Background section should contain your literature review. Remember that you need to draw your literature together and provide analysis - you should absolutely not summarize one article, then summarize another, and so on. This takes practice, and Dr. Pacheco-Vega also provides some tips for <a href="http://www.raulpacheco.org/2017/05/distinguishing-between-description-and-analysis-in-academic-writing/" target="_blank">distinguishing between description and analysis in academic writing</a>.
+
 The Data and Methods section should contain greater detail than a typical journal article manuscript. Please be sure to reference and cite all packages that you use, and to describe extensively the process you followed cleaning and analyzing your data. Be sure to dedicate space in this section to describing the distribution of your dependent variable.
 
 ## Peer Review Instructions

@@ -111,6 +111,8 @@ Final presentations should contain _as a minimum_:
 8. a limitations slide that discusses what cautionary notes you have about your analyses or your findings,
 9. and discussion and conclusion slide that summarizes your findings, places them in the context of the literature you have identified, and offers some concluding remarks.
 
+For the literature and data, do not just _summarize_ each but rather make a case for your study: what is the gap in the literature you are addressing? Why is the study design best suited to address that gap? You do not necessarily have to be this explicit on the slide itself, but should be when you describe the slide on presentation day. When you conclude, go back to this gap and make a case for how you've addressed it. We call this the "so what" part of a presentation - make sure your audiance does not leave wondering "so what"!^[These suggestions are adapted from <a href="https://twitter.com/JessicaCalarco/status/1024313082271735808" target="_blank">Dr. Jessica Calarco</a>.]
+
 This is, generally speaking, the way that professional conference presentations should be structured. There are only two major differences - we typically have a bit longer for conferences, which often offer presenters ten to fifteen minutes, and presenting data on the normality of your dependent variable is typically not a part of what you would present.
 
 ## Final Handout
@@ -135,6 +137,12 @@ Please come at least a few minutes early to upload your slides to the classroom 
 
 I will also provide a clicker for those students who are interested in using it. One word of caution - a presentation in front of others is usually *not* the best time to try using a clicker for the first time. You should practice using one ahead of time, and can borrow one to do so from Ashlee Dorsey, the Sociology and Anthropology Department Administrator.
 
-Make sure you are prepared to speak clearly and loudly. Some students may find notes helpful, but I strongly encourage you not to read verbatim from them. Practicing in front of a mirror or in front of roommates, friends, or family can be very helpful. Being able to practice means being done with sufficient time to make that practice happen - build this into your planning from the outset! 
+Make sure you are prepared to speak clearly and loudly. Some students may find notes helpful, but I strongly encourage you not to read verbatim from them. If you are going to bring notes, here are a few tips:^[These suggestions are adapted from <a href="https://twitter.com/JessicaCalarco/status/1024313082271735808" target="_blank">Dr. Jessica Calarco</a>.]
+
+* write your notes like you'd say them (short, declarative sentences)
+* plan to speak at about 100-150 words per minute
+* print it 14pt font or bigger
+
+Practicing in front of a mirror or in front of roommates, friends, or family can be very helpful. Being able to practice means being done with sufficient time to make that practice happen - build this into your planning from the outset! 
 
 One final note - there are no dress requirements or the like.
