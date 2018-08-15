@@ -109,6 +109,8 @@ Final presentations should contain _as a minimum_:
 8. a limitations slide that discusses what cautionary notes you have about your analyses or your findings,
 9. and discussion and conclusion slide that summarizes your findings, places them in the context of the literature you have identified, and offers some concluding remarks.
 
+This is, generally speaking, the way that professional conference presentations should be structured. There are only two major differences - we typically have a bit longer for conferences, which often offer presenters ten to fifteen minutes, and presenting data on the normality of your dependent variable is typically not a part of what you would present.
+
 ## Final Handout
 Alongside your presentation, you should bring copies of handouts for each audience member (anticipate approximately 20 handouts). Handouts should be no more than a single page front and back that contains the following on the front page:
 
