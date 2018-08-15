@@ -32,7 +32,7 @@
 
 Your draft paper should be saved in your `docs/` folder. You may find it makes sense to create a sub-folder for your presentation slides - something like `docs/paper/` - since the notebooks and their output will create quite a few files. Save both the editable source document in its native format as well as a `.pdf` rendering of the document. When you create your final paper, do note overwrite the draft. Make sure both are saved separately (as in `paper-draft.doc` and `paper-final.doc`).
 
-As with the presentations, there are not strict requirements for what you write your paper in so long as it is in wide use in academia. Options include Microsoft Word, Apple Pages, Google Docs, or LaTeX. Most students will find Word or Pages to be the easiest choices, but I can provide some support to students who want to try their hand at using LaTeX. As I mentioned in the "[Presentation Tools]" section, I recommending working with <a href="http://sharelatex.com" target="_blank">ShareLaTeX</a> if you want to give LaTeX a shot. This web-based tool would allow you to share your work with me in a way that I can easily provide help and feedback.
+As with the presentations, there are not strict requirements for what you write your paper in so long as it is in wide use in academia. Options include Microsoft Word, Apple Pages, Google Docs, or LaTeX. Most students will find Word or Pages to be the easiest choices, but I can provide some support to students who want to try their hand at using LaTeX. LaTeX makes much of the tedieum of academic writing easier, though it comes with a learning curve. As I mentioned in the "[Presentation Tools]" section, I recommending working with <a href="http://sharelatex.com" target="_blank">ShareLaTeX</a> if you want to give LaTeX a shot and build some additional skills. This web-based tool would allow you to share your work with me in a way that I can easily provide help and feedback.
 
 ```{block, type = "rmdwarning"}
 It is imperative that a `.pdf` version is present for both your draft and final submissions. Since I do not have strict software requirements, I need to be sure that I can open your paper and it looks as you intended it to look!
@@ -46,10 +46,10 @@ Begin creating a draft that will evolve into a journal article manuscript. The w
 Your draft should be formatted as it would be for your final submission so that formatting can be a piece of the peer review process. This assignment follows the *<a href="https://www.journals.uchicago.edu/journals/ajs/instruct" target="_blank">American Journal of Sociology</a>* formatting guidelines with the following exceptions/clarifications:
 
 1. Your target length for this assignment is approximately 5,000 words all inclusive - citations, tables, and notes all count towards this total. You should be within 500 words of this target (i.e. between 4,500 and 5,500 words). Manuscripts should use 1" margins with 12 point, serif font.
-2. The first page should be a cover page with a title, word count, key words, your name, your affiliation, and your contact information (professional address, email). Use the "Department of Sociology and Anthropology, Saint Louis University, 3700 Lindell Blvd., St. Louis MO 63108" if you need a professional address.
+2. The first page should be a cover page with a title, word count, 3 to 5 key words, your name, your affiliation, and your contact information (professional address, email). Use the "Department of Sociology and Anthropology, Saint Louis University, 3700 Lindell Blvd., St. Louis MO 63108" if you need a professional address.
 3. All in-text and works cited references should follow the American Sociological Association citation standards. See my discussion under "[General Structure of Annotated Bibliography]" for details on why ASA is the only accepted format.
 
-Please read the *<a href="https://www.journals.uchicago.edu/journals/ajs/instruct" target="_blank">American Journal of Sociology</a>* guidelines for additional details. Learning to read these types of instructions for authors is an important academic skill!
+Please read the *<a href="https://www.journals.uchicago.edu/journals/ajs/instruct" target="_blank">American Journal of Sociology</a>* guidelines for additional details and requirements.
 
 Like citation styles, journals are often idiosyncratic in their formatting guidelines. Each journal is a little bit different from the next and requires different things in its instructions to authors. There is therefore not just one way to submit an article. This project is structured to walk you through some of the mechanics of authoring an article manuscript, which includes formatting an article in an often foreign and exacting manner. There are critiques to journals operating this way, and I think many of them are valid. Nevertheless, these standards remain and becoming fluent in conforming to them is a skill that graduate students must acquire.
 
@@ -67,7 +67,7 @@ At the draft stage, papers should include _as a minimum_:
 5. any expository end-notes,
 6. and at least one *draft* table and one *draft* figure.
 
-All sections (and each table and figure) should begin on their own page. 
+All numbered sections (and each table and figure) should begin on their own page. The Background, Data and Methods, and other paper sections _should not_ begin on their own page.
 
 The Data and Methods section should contain greater detail than a typical journal article manuscript. Please be sure to reference and cite all packages that you use, and to describe extensively the process you followed cleaning and analyzing your data. Be sure to dedicate space in this section to describing the distribution of your dependent variable.
 
@@ -83,7 +83,7 @@ Your final paper should be formatted carefully based on the guidelines described
 
 At the final submission stage, papers should include _as a minimum_:
 
-1. A cover page,
+1. A cover page (again, see the "[Draft Paper]" section for details),
 2. an abstract not exceeding 100 words,
 3. a body that includes:
     * Introduction
@@ -97,7 +97,7 @@ At the final submission stage, papers should include _as a minimum_:
 6. tables,
 7. and figures.
 
-All sections (and each table and figure) should begin on their own page. 
+All numbered sections (and each table and figure) should begin on their own page. The Background, Data and Methods, and other paper sections _should not_ begin on their own page.
 
 As I noted under "[Draft Paper]", the Data and Methods section should contain greater detail than a typical journal article manuscript. Please be sure to reference and cite all packages that you use, and to describe extensively the process you followed cleaning and analyzing your data. Be sure to dedicate space in this section to describing the distribution of your dependent variable, and to describe what types of model fit and assumption checks were conducted.
 
