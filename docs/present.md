@@ -30,7 +30,11 @@
 
 ## Analysis Development
 
-Your draft presentation should be saved in your `docs/` folder. You may find it makes sense to create a sub-folder for your presentation slides - something like `docs/slides/` - since the notebooks and their output will create quite a few files. You can make a similar sub-folder (`docs/handout/`) for your presentation handout. For both, save both the editable source document in its native format as well as a `.pdf` rendering of the document.
+Your draft presentation should be saved in your `docs/` folder. You may find it makes sense to create a sub-folder for your presentation slides - something like `docs/slides/` - since the notebooks and their output will create quite a few files. You can make a similar sub-folder (`docs/handout/`) for your presentation handout. For both, save both the editable source document in its native format as well as a `.pdf` rendering of the document. When you create your final presentation, do note overwrite the draft. Make sure both are saved separately (as in `slides-draft.ppt` and `slides-final.ppt`).
+
+<div class="rmdwarning">
+<p>It is imperative that a <code>.pdf</code> version is present for both your draft and final submissions. Since I do not have strict software requirements, I need to be sure that I can open your slides and handout, and that each looks as you intended it!</p>
+</div>
 
 ### Presentation Tools
 There are no strict guidelines other than you should use a presentation tool common in academia. This includes Microsoft PowerPoint, Apple Keynote, Google Slides, or <a href="https://en.wikipedia.org/wiki/Beamer_(LaTeX)" target="_blank">LaTeX Beamer</a>. LaTeX is a professional typesetting tool that is widely used in academia for publishing, and it can make work like writing a graduate thesis significantly easier. If you are interesting in using this as an opportunity to learn LaTeX, I have some resources I can share. I also recommending working with <a href="http://sharelatex.com" target="_blank">ShareLaTeX</a>, which would allow you to share your work with me in a way that I can easily provide help and feedback.
@@ -48,7 +52,7 @@ I use `xaringan` for some tasks, but presentations are one area where I do not p
 As I said above, there are no strict requirements for presentation software other than that it be in wide use in academia. If a tool is not discussed in this section, please check with me before starting to build your presentation with it. The only tool that I do not allow students to use is Presi. Please choose the tool you feel either most comfortable with or that you see as a long term investment in skill building. 
 
 ### Handout Tools
-As with presentation tools, I am not particularly concerned with the tool that you use to create your handout so long as it is in wide use in academia. Options include Microsoft Word, Apple Pages, Adobe InDesign, LaTeX, or even RMarkdown. Most students will find Word or Pages to be the easiest choices, but I can provide some support to students who want to try their hand at using LaTeX or RMarkdown for the same task.
+As with presentation tools, I am not particularly concerned with the tool that you use to create your handout so long as it is in wide use in academia. Options include Microsoft Word, Apple Pages, Google Docs, Adobe InDesign, LaTeX, or even RMarkdown. Most students will find Word or Pages to be the easiest choices, but I can provide some support to students who want to try their hand at using LaTeX or RMarkdown for the same task.
 
 ## Draft Presentation
 Begin creating a draft that will evolve into a short, five to six minute presentation of your findings. Please refer to my resources on <a href="https://chris-prener.github.io/presentingData/" target="_blank">presenting research</a> for guidance on constructing a good presentation. 
