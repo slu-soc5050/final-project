@@ -94,7 +94,7 @@ All students will be assigned a partner for whom they should review the draft fi
 3. The draft presentation - how is it designed? Is it clearly organized? Is it easy to read and follow?
 4. The draft handout - how is it designed? Is it clearly organized? Is it easy to read and follow?
 
-Focus on providing clear, *actionable* advise for improving on the draft materials. Your review should be written in full sentences and paragraphs as a letter to your partner. Letters should focus first on articulating the goal of your partner's project (what is their topic and what are they trying to demonstrate with their data analyses) and some positive aspects of their progress towards achieving that goal thus far. Then address each of the four points above, providing supportive critiques and suggestions as necessary. 
+Focus on providing clear, *actionable* advice for improving on the draft materials. Your review should be written in full sentences and paragraphs as a letter to your partner. Letters should focus first on articulating the goal of your partner's project (what is their topic and what are they trying to demonstrate with their data analyses) and some positive aspects of their progress towards achieving that goal thus far. Then address each of the four points above, providing supportive critiques and suggestions as necessary. 
 
 Each review itself will be graded on a check-plus, check, check-minus scale. It will be graded for thoroughness and thoughtfulness, its tone, and the degree it provides feedback on the four parts listed above.
 
