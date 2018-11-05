@@ -87,10 +87,28 @@ These four elements should fit on the front side of an 8.5" x 11" sheet of paper
 Your draft will be graded using the "check" system outlined in the syllabus.
 
 ## Peer Review Instructions
+All students will be assigned a partner for whom they should review the draft final project materials. Reviews should be thoughtful, polite, and supportive. The goal of the review is to provide substantive feedback about the following topics:
 
-<div class="rmdwarning">
-<p>Expectations for the peer review element of the assignment are under development and will be posted after the beginning of the semester.</p>
-</div>
+1. The structure of the final project repository itself - how it it organized? How easy is it to find crucial components? How could it be improved?
+2. The code and narrative used for data cleaning and data analysis - does it achieve the needed goals? Is it clear to read and follow? How could it be improved?
+3. The draft presentation - how is it designed? Is it clearly organized? Is it easy to read and follow?
+4. The draft handout - how is it designed? Is it clearly organized? Is it easy to read and follow?
+
+Focus on providing clear, *actionable* advise for improving on the draft materials. Your review should be written in full sentences and paragraphs as a letter to your partner. Letters should focus first on articulating the goal of your partner's project (what is their topic and what are they trying to demonstrate with their data analyses) and some positive aspects of their progress towards achieving that goal thus far. Then address each of the four points above, providing supportive critiques and suggestions as necessary. 
+
+Each review itself will be graded on a check-plus, check, check-minus scale. It will be graded for thoroughness and thoughtfulness, its tone, and the degree it provides feedback on the four parts listed above.
+
+
+Table: (\#tab:unnamed-chunk-8)SOC 4015/5050 Final Project Peer Review Groups
+
+ Pair  Section    Names             
+-----  ---------  ------------------
+    1  SOC 5050   Branson & Raymond 
+    2  SOC 5050   Jeanna & Via      
+    3  SOC 4015   Nadia & Carter    
+    4  SOC 4015   Addie & Mae       
+    5  SOC 4015   Nick & Logan      
+    6  SOC 4015   Janae & Carissa   
 
 ## Final Presentation
 The final presentation should be approximately five to six minutes in length. It is important that you work hard not to go over that time limit given the number of students who will have to present during our finals week session! Please see the "[Draft Presentation](/draft-presentation.html)" instructions for some tips on getting started.
@@ -109,7 +127,7 @@ Final presentations should contain _as a minimum_:
 8. a limitations slide that discusses what cautionary notes you have about your analyses or your findings,
 9. and discussion and conclusion slide that summarizes your findings, places them in the context of the literature you have identified, and offers some concluding remarks.
 
-For the literature and data, do not just _summarize_ each but rather make a case for your study: what is the gap in the literature you are addressing? Why is the study design best suited to address that gap? You do not necessarily have to be this explicit on the slide itself, but should be when you describe the slide on presentation day. When you conclude, go back to this gap and make a case for how you've addressed it. We call this the "so what" part of a presentation - make sure your audiance does not leave wondering "so what"!^[These suggestions are adapted from <a href="https://twitter.com/JessicaCalarco/status/1024313082271735808" target="_blank">Dr. Jessica Calarco</a>.]
+For the literature and data, do not just _summarize_ each but rather make a case for your study: what is the gap in the literature you are addressing? Why is the study design best suited to address that gap? You do not necessarily have to be this explicit on the slide itself, but should be when you describe the slide on presentation day. When you conclude, go back to this gap and make a case for how you've addressed it. We call this the "so what" part of a presentation - make sure your audience does not leave wondering "so what"!^[These suggestions are adapted from <a href="https://twitter.com/JessicaCalarco/status/1024313082271735808" target="_blank">Dr. Jessica Calarco</a>.]
 
 This is, generally speaking, the way that professional conference presentations should be structured. There are only two major differences - we typically have a bit longer for conferences, which often offer presenters ten to fifteen minutes, and presenting data on the normality of your dependent variable is typically not a part of what you would present.
 

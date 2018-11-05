@@ -39,11 +39,11 @@ With your research question in-hand (see "[Crafting a Research Question]"), you 
 
 In one sheet of a spreadsheet workbook, keep track of the sources you've found, scanned (see "[Evaluating Sources]"), and found not to be useful. This is to serve as a reference later if you come across an article again and cannot remember if you already looked at it or not. You can easily generate bibliographic citations in Google Scholar by searching for the source and clicking the double quote icon under its Google Scholar entry (highlighted in red):
 
-![](images/googleScholar1.png)<!-- -->
+<img src="images/googleScholar1.png" width="437" />
 
 Clicking that icon should open a pop-up window that includes pre-formatted references in a number of different styles:
 
-![](images/googleScholar2.png)<!-- -->
+<img src="images/googleScholar2.png" width="274" />
 
 I tend to use Chicago, which requires minimal editing for both books and articles to convert the citation to ASA (see "[Writing an Annotated Bibliography]" for an explanation about why ASA is used). For books, you'll want to move the year so that is referenced after the author's name and add the city and state before the publisher's name. For articles, you'll want to move the year and simplify the volume and issue numbers.
 
